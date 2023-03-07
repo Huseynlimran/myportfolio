@@ -1,0 +1,149 @@
+.home {
+    height: 100vh;
+    margin-top: 200px;
+    span{
+        color: $font;
+        font-family: $brandFont;
+        font-weight: $bold;
+    }
+    .cnt{
+        text-decoration: none;
+        color: $brand;
+        cursor: pointer;
+        font-size: 1.5em;
+        padding: 10px 50px;
+        position: relative;
+        overflow: hidden;
+        border: 1px solid $brand;
+        background-image: linear-gradient(90deg,$brand,$brand);
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        background-position-x: right;
+        transition: background-size 500ms;
+        &:hover{
+            background-size: 100% 100%;
+            background-position-x: left;
+            color: black;
+        }
+    }
+}
+
+.home .color {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    border-radius: 20% 0 20% 0;
+    border: 6px solid $brand;
+    top: 3.9%;
+    left: -20%;
+    z-index: -1;
+    animation: Bore 2s forwards infinite alternate;
+}
+
+.home .colorTwo {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius:50%;
+    background: linear-gradient(rgba(0, 255, 0, 0.678) ,rgb(255, 255, 132));
+    box-shadow: 0 0 50px var(--BrandColor),
+                0 20px 30px white;
+    top: 0;
+    right: 15%;
+    z-index: -2;
+    animation: color3 2s forwards infinite alternate;
+}
+.bg7{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    right: -15%;
+    bottom: 0;
+    z-index: -1;
+}
+
+@keyframes Bore {
+    from{ 
+        border-radius: 20% 0 40% 0;
+    }
+    to {
+        border-radius: 20% 0 70% 0;
+        border: 6px solid rgba(0, 0, 0, 0.438);
+    }
+}
+
+.home .colorThree{
+    position: absolute;
+    width: 5%;
+    height: 200vh;
+    top: -10%;
+    z-index: -2;
+}
+
+@keyframes lilo {
+    from {
+        height: 0%;
+    }
+    to {
+        height: 200vh;
+    }
+}
+
+
+
+
+
+
+
+
+.home {
+    position: relative;
+    p {
+        font-size: 2.1em;
+        color: $font;
+        font-family: $brandFont;
+        color: $brand;
+        color: transparent;
+                background-image: linear-gradient(
+                  to left,
+                  $brand,
+                  $font,
+                  #fdecf4,
+                  black,
+                  $brand
+                );
+                background-clip: text;
+                -webkit-background-clip: text;
+                animation: animate 15s linear infinite alternate-reverse;
+                background-size: 800%;
+                -webkit-background-size: 800%;
+                @keyframes animate {
+                  0% {
+                    background-position: 0 100%;
+                  }
+                  50% {
+                    background-position: 100% 0;
+                  }
+                  100% {
+                    background-position: 0 100%;
+                  }
+                }
+            }
+}
+
+
+.home #layer{
+    z-index: 999;
+}
+
+.home i {
+    font-size: 3em;
+    color: $brand;
+    margin: 10px 10px;
+    transition: 0.4s;
+}
+
+.home i:hover{
+    color: rgb(194, 194, 194);
+    padding-right: 10px;
+}

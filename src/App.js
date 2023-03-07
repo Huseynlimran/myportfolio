@@ -1,7 +1,11 @@
+import Navigation from "./components/Navbar";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <div className="App">
-      <h1>Salam</h1>
+      <Navigation />
+      <Home />
     </div>
   );
 }
