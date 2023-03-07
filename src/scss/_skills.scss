@@ -1,0 +1,103 @@
+.MySkills {
+  scroll-margin-top: 60px;
+  margin-bottom: 10px;
+  margin-top: 40vh;
+
+  h1 {
+    font-size: $big;
+    margin-bottom: 40px;
+    line-height: 100%;
+    font-size: 2.1em;
+    color: $font;
+    font-family: $brandFont;
+    color: $brand;
+    color: transparent;
+    line-height: 150%;
+
+    background-image: linear-gradient(
+      to left,
+      $brand,
+      $font,
+      #fdecf4,
+      black,
+      $brand
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite alternate-reverse;
+    background-size: 800%;
+    -webkit-background-size: 800%;
+    @keyframes animate {
+      0% {
+        background-position: 0 100%;
+      }
+      50% {
+        background-position: 100% 0;
+      }
+      100% {
+        background-position: 0 100%;
+      }
+    }
+    @media (max-width: $breakpoint480) {
+      font-size: $big;
+    }
+  }
+}
+.MySkills p {
+  color: $font;
+  font-family: $brandFont;
+  letter-spacing: 2px;
+  line-height: 190%;
+}
+
+.MySkills span {
+  font-weight: bold;
+  color: $font;
+  font-family: $brandFont;
+}
+
+.MySkills footer {
+  background: gray;
+}
+
+.MySkills .faiz {
+  width: 84%;
+  height: 4px;
+  background: #7df2ab;
+}
+.MySkills .faiz2 {
+  width: 90%;
+  height: 4px;
+  background: red;
+}
+.MySkills .faiz3 {
+  width: 80%;
+  height: 4px;
+  background: rgb(255, 255, 255);
+}
+.MySkills .faiz4 {
+  width: 70%;
+  height: 4px;
+  background: rgb(226, 226, 81);
+}
+.MySkills .faiz5 {
+  width: 50%;
+  height: 4px;
+  background: rgb(76, 181, 252);
+  animation: anime 1s ease-in-out forwards infinite alternate;
+}
+.MySkills .skill_equal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+@keyframes anime {
+  from {
+    width: 60%;
+  }
+
+  to {
+    width: 40%;
+  }
+}

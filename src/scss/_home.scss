@@ -144,3 +144,22 @@
   color: rgb(194, 194, 194);
   padding-right: 10px;
 }
+.box{
+    width: 600px ;
+    height: 600px;
+    border-radius: 50%;
+    background-color: $brand;
+    filter: blur(6em);
+    position: absolute;
+    right: -200px;
+    top: 0px;
+    animation: anime 10s alternate-reverse infinite;
+    @keyframes anime {
+        from{
+            border-radius: 5% 25% 50% 75%;
+        }
+        to{
+            border-radius: 5%;
+        }
+    }
+}

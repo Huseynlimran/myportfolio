@@ -65,6 +65,7 @@ export default function Home() {
         </div>
 
         <div className="color"></div>
+        <div className="box"></div>
     </section>
   )
 }

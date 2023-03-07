@@ -19,49 +19,40 @@ const Navigation = () => {
   return (
     <nav className="navSticky">
       <div className="container">
-        <Link className="logo">
+        <Link to="/" className="logo">
          Imran
 
         </Link>
 
         <ul className={active}>
-          <Link href="#D" className="logo"></Link>
+          <Link to="/" className="logo"></Link>
 
           <li className="listLi">
-            <Link href="#D" className="linksNav">
-              PRODUCTS
+            <Link to="/" className="linksNav">
+              Home
             </Link>
           </li>
           <li className="listLi">
-            <Link href="#myskills" className="linksNav">
-              SOLUTIONS
+            <Link to="/myskills" className="linksNav">
+              My Skills
             </Link>
           </li>
           <li className="listLi">
-            <Link href="#project" className="linksNav">
-              CUSTOMER
+            <Link to="/" className="linksNav">
+              Project
             </Link>
           </li>
           <li className="listLi">
-            <Link href="#aboutme" className="linksNav">
-              PRICING
+            <Link to="/" className="linksNav">
+              Abou me
             </Link>
           </li>
           <li className="listLi">
-            <Link href="#aboutme" className="linksNav">
-              RESOURCES
+            <Link to="/" className="linksNav">
+              Contact
             </Link>
           </li>
-          <li className="listLi">
-            <Link href="#registerNow" className="linksNav registerLink">
-              REGISTER NOW
-              <img
-                src="img/arrow-down-left.png"
-                className="arrow"
-                alt="arrow"
-              />
-            </Link>
-          </li>
+          
         </ul>
 
         <div></div>
