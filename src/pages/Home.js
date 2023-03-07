@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 
 export default function Home() {
 
@@ -50,13 +50,13 @@ export default function Home() {
                         Front end developer
                     </p>
                     <a href="mailto: huseynlimran@gmail.com" className="cnt text-center mb-4 sol"
-                        target="_blank">Contact</a>
+                        target="_blank" rel="noreferrer">Contact</a>
                 </div>
                 <div
                     className="col-md-6 p-0 d-flex flex-md-column align-items-md-end align-items-start justify-content-md-center socials">
-                    <a href="https://github.com/Huseynlimran" target={'_blank'} className="sag"><i
+                    <a href="https://github.com/Huseynlimran" target='_blank' rel="noreferrer" className="sag"><i
                             className="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/imran-huseynli-406347220/" className="sag" target={'_blank'}><i
+                    <a href="https://www.linkedin.com/in/imran-huseynli-406347220/" className="sag" target='_blank' rel="noreferrer"><i
                             className="fab fa-linkedin"></i></a>
                 </div>
 
