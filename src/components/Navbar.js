@@ -1,7 +1,36 @@
-import React, { useState } from "react";
+import gsap from "gsap";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
+
+  useEffect(() => {
+    gsap.to(".animationnav", {
+      "clip-path": "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+      scale: 1,
+      opacity: 1,
+      duration: 2,
+    });
+    //       // gsap.fromTo(
+    //       //   ".webok",
+    //       //   {
+    //       //     y: 0,
+    //       //     opacity: 0,
+    //       //     ease: Power3.easeOut,
+    //       //   },
+    //       //   {
+    //       //     y: 100,
+    //       //     opacity: 1,
+    //       //     scrollTrigger: {
+    //       //       trigger: ".boxoso",
+    //       //       start:"center",
+    //       //       end : "bottom",
+    //       //       scrub : 3
+    //       //     },
+    //       //   }
+    //       // );
+  }, []);
+
   const [active, setActive] = useState("nav-links");
   const [toggleIcon, setToggleIcon] = useState("burger");
 
@@ -18,7 +47,7 @@ const Navigation = () => {
   };
   return (
     <nav className="navSticky">
-      <div className="container">
+      <div className="container animationnav">
         <Link to="/" className="logo">
          Imran
 
@@ -28,7 +57,7 @@ const Navigation = () => {
           <Link to="/" className="logo"></Link>
 
           <li className="listLi">
-            <Link to="/" className="linksNav">
+            <Link to="/home" className="linksNav">
               Home
             </Link>
           </li>
@@ -38,12 +67,12 @@ const Navigation = () => {
             </Link>
           </li>
           <li className="listLi">
-            <Link to="/" className="linksNav">
+            <Link to="/project" className="linksNav">
               Project
             </Link>
           </li>
           <li className="listLi">
-            <Link to="/" className="linksNav">
+            <Link to="/about" className="linksNav">
               Abou me
             </Link>
           </li>
@@ -52,6 +81,7 @@ const Navigation = () => {
               Contact
             </Link>
           </li>
+         
           
         </ul>
 

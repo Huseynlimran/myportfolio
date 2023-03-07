@@ -1,0 +1,60 @@
+.footer{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 80px;
+    margin-top: 250px;
+    .social{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+}
+
+
+.footer .navfooter{
+    list-style: none;
+}
+.footer .navfooter {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media (max-width:600px) {
+    .footer ul{
+        gap:5px;
+    }
+}
+.footer .navfooter{
+    text-decoration: none;
+    color: $font;
+    transition: all 0.4s;
+    font-size: 18px;
+}
+.footer .navfooter:hover{
+    color: $brand;
+    padding-left: 5px;
+}
+
+footer h3 {
+    color: $font;
+}
+
+footer .logoMini{
+    display: block;
+    text-decoration: none;
+    font-size: 3em;
+    color:$brand;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+footer .logoMini span {
+    color: rgba(0, 0, 0, 0.76);
+    font-style: italic;
+}
+footer .logoMini:hover{
+    color: black;
+}

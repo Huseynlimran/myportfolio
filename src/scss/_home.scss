@@ -31,17 +31,7 @@
   }
 }
 
-.home .color {
-  position: absolute;
-  width: 60%;
-  height: 100%;
-  border-radius: 20% 0 20% 0;
-  border: 6px solid $brand;
-  top: 3.9%;
-  left: -20%;
-  z-index: -1;
-  animation: Bore 2s forwards infinite alternate;
-}
+
 
 .home .colorTwo {
   position: absolute;
@@ -64,15 +54,6 @@
   z-index: -1;
 }
 
-@keyframes Bore {
-  from {
-    border-radius: 20% 0 40% 0;
-  }
-  to {
-    border-radius: 20% 0 70% 0;
-    border: 6px solid rgba(0, 0, 0, 0.438);
-  }
-}
 
 .home .colorThree {
   position: absolute;

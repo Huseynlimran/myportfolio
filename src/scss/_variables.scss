@@ -32,6 +32,18 @@ body{
     background-color: white;;
 }
 
+html::-webkit-scrollbar{
+    width:.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:#cff306;
+}
+
 //Fonts 
 $brandFont: 'Orbitron', sans-serif;
 $fontFamily :'Tilt Prism',cursive;
