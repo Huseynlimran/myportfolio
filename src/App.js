@@ -17,13 +17,25 @@ function App() {
     <LocomotiveScrollProvider
       containerRef={containerRef}
       options={{
-        smooth: 10,
+        inertia: 0.8,
+        smooth: true,
+        getDirection: true,
+        mobile: {
+          smooth: true,
+          inertia: 0.8,
+          getDirection: true,
+        },
+        tablet: {
+          smooth: true,
+          inertia: 0.8,
+          getDirection: true,
+        },
       }}
     >
       <div className="app" data-scroll-container ref={containerRef}>
         <BrowserRouter>
           <div>
-            <Navigation/>
+            <Navigation />
           </div>
           <div data-scroll-section>
             <Home />
