@@ -9,6 +9,55 @@
       font-size: $big;
     }
   }
+
+  .itemHome{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    
+  }
+  .myname{
+    font-size: 74px;
+    color: transparent;
+    text-align: center;
+    width: 100vw;
+    font-family: $fontFamily;
+    color: $font;
+    font-family: $brandFont;
+    color: $brand;
+    color: transparent;
+    background-image: linear-gradient(
+      to left,
+      $brand,
+      $font,
+      #fdecf4,
+      black,
+      $brand
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite alternate-reverse;
+    background-size: 800%;
+    -webkit-background-size: 800%;
+    @keyframes animate {
+      0% {
+        background-position: 0 100%;
+      }
+      50% {
+        background-position: 100% 0;
+      }
+      100% {
+        background-position: 0 100%;
+      }
+    }
+    @media (max-width: $breakpoint768) {
+      font-size: 24px;
+    }
+    @media (max-width: $breakpoint480) {
+      font-size: 16px;
+    }
+    
+  }
   .cnt {
     text-decoration: none;
     color: $brand;

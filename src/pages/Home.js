@@ -6,12 +6,39 @@ import React, { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    gsap.to(".sol", {
-      "clip-path": "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-      scale: 1,
-      opacity: 1,
-      duration: 2,
-    });
+    gsap.fromTo(
+      ".sol",
+      { opacity: 0, scale: 0.3 },
+      {
+        scale: 1,
+        opacity: 1,
+        duration: 0.3,
+        stagger: 0.1,
+      }
+    );
+    gsap.fromTo(
+      ".itemHome",
+      { opacity: 0, y: -200 },
+      {
+        y: 0,
+        scale: 1,
+        opacity: 1,
+        duration: 3,
+        delay: 1,
+      }
+    );
+    gsap.fromTo(
+      ".myname",
+      { x: -1000 },
+      {
+        x: 1000,
+        duration: 10,
+        paused: false,
+        draggable: true,
+        repeat: true,
+        reversed:true
+      }
+    );
     //       // gsap.fromTo(
     //       //   ".webok",
     //       //   {
@@ -40,129 +67,286 @@ export default function Home() {
             <h1 className="display-1">
               <div className="boxoso">
                 <div className="d-flex">
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     H
                   </span>
                   <span
                     id="layer"
                     className="sol"
-                    
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
                   >
-                    i 
+                    i
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     ,
                   </span>
                 </div>
                 <div className="d-flex sol words">
-                  <span id="layer" className="sol"  aria-label=""
-                    data-scroll
-                    data-scroll-direction="vertical"
-                    data-scroll-speed="3" 
-                     data-scroll-delay="0.800">
-                    I
-                  </span>
-                  <span id="layer" className="sol"  aria-label=""
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                     data-scroll-delay="0.18">
+                    data-scroll-delay="0.5"
+                  >
+                    I
+                  </span>
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.05"
+                  >
                     '
                   </span>
-                  <span id="layer" className="me-4 sol"  aria-label=""
+                  <span
+                    id="layer"
+                    className="me-4 sol"
+                    aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                     data-scroll-delay="0.18">
+                    data-scroll-delay="0.05"
+                  >
                     m
                   </span>
-                  <span id="layer" className="fw-bold sol"  aria-label=""
+                  <span
+                    id="layer"
+                    className="fw-bold sol"
+                    aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                     data-scroll-delay="0.18">
+                    data-scroll-delay="0.05"
+                  >
                     I
                   </span>
-                  <span id="layer" className="fw-bold sol"  aria-label=""
+                  <span
+                    id="layer"
+                    className="fw-bold sol"
+                    aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                     data-scroll-delay="0.18">
+                    data-scroll-delay="0.05"
+                  >
                     m
                   </span>
-                  <span id="layer" className="fw-bold sol"  aria-label=""
+                  <span
+                    id="layer"
+                    className="fw-bold sol"
+                    aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                     data-scroll-delay="0.18">
+                    data-scroll-delay="0.05"
+                  >
                     r
                   </span>
-                  <span id="layer" className="fw-bold sol"  aria-label=""
+                  <span
+                    id="layer"
+                    className="fw-bold sol"
+                    aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                     data-scroll-delay="0.18">
+                    data-scroll-delay="0.05"
+                  >
                     a
                   </span>
-                  <span id="layer" className="fw-bold sol"  aria-label=""
+                  <span
+                    id="layer"
+                    className="fw-bold sol"
+                    aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                     data-scroll-delay="0.18">
+                    data-scroll-delay="0.05"
+                  >
                     n
                   </span>
-                  <span id="layer" className="fw-bold sol"  aria-label=""
+                  <span
+                    id="layer"
+                    className="fw-bold sol"
+                    aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                     data-scroll-delay="0.18">
+                    data-scroll-delay="0.05"
+                  >
                     ,
                   </span>
                 </div>
                 <div className="d-flex">
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     W
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     e
                   </span>
-                  <span id="layer" className="me-3 sol">
+                  <span
+                    id="layer"
+                    className="me-3 sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     b
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     D
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     e
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     v
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     e
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     l
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     o
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     p
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     e
                   </span>
-                  <span id="layer" className="sol">
+                  <span
+                    id="layer"
+                    className="sol"
+                    aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                    data-scroll-delay="0.5"
+                  >
                     r
                   </span>
                 </div>
               </div>
             </h1>
-            <p className="mt-2 my-4 sol webok"  aria-label=""
-                    data-scroll
-                    data-scroll-direction="vertical"
-                    data-scroll-speed="1">Front end developer</p>
+            <p
+              className="mt-2 my-4 sol webok"
+              aria-label=""
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="1"
+            >
+              Front end developer
+            </p>
             <a
               href="mailto: huseynlimran@gmail.com"
               className="cnt text-center mb-4 sol"
@@ -173,6 +357,15 @@ export default function Home() {
             </a>
           </div>
           <div className="col-md-6 p-0 d-flex flex-md-column align-items-md-end align-items-start justify-content-md-center socials">
+            <img
+              src="img/item.png"
+              className="itemHome"
+              alt=""
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="7"
+              data-scroll-delay="0.05"
+            />
             <a
               href="https://github.com/Huseynlimran"
               target="_blank"
@@ -193,7 +386,20 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="box"></div>
+      <div id="direction">
+        <h1
+          className="myname"
+          data-scroll
+          data-scroll-direction="horizontal"
+          data-scroll-speed="7"
+          data-scroll-target="#direction"
+          data-scroll-delay="0.05"
+        >
+          HUSEYNLI IMRAN FRONT END DEVELOPER
+        </h1>
+      </div>
+
+      {/* <div className="box"></div> */}
     </section>
   );
 }

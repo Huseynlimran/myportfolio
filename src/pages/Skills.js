@@ -2,11 +2,9 @@
 import React from "react";
 // import { ScrollTrigger } from "gsap/all";
 
-
 // gsap.registerPlugin(ScrollTrigger);
 
 export default function Skills() {
-
   // useEffect(() => {
   //   gsap.fromTo(
   //     ".MySkills",
@@ -47,63 +45,109 @@ export default function Skills() {
   // }, []);
 
   return (
-    
-      <section className="MySkills mb-5 pb-5" id="myskills"   aria-label=""
+    <section
+      className="MySkills mb-5 pb-5"
+      id="myskills"
+      aria-label=""
       data-scroll
       data-scroll-direction="vertical"
-      data-scroll-speed="3">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6  mb-md-0 mb-5">
-              <h1 className="lefts"    aria-label=""
-      data-scroll data-scroll-direction="horizontal"
-      data-scroll-speed="2">My Skills</h1>
-              <p className="lefts"   aria-label=""
-                    data-scroll
-                    data-scroll-direction="vertical"
-                    data-scroll-speed="3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
-                quos unde velit qui maiores! Ipsam, natus est veritatis corrupti
-                iusto rem veniam, nihil sint fugit, quae earum vero
-              </p>
+      data-scroll-speed="5"
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6  mb-md-0 mb-5">
+            <h1
+              className="lefts"
+              aria-label=""
+              data-scroll
+              data-scroll-direction="horizontal"
+              data-scroll-speed="1"
+              data-scroll-delay="0.05"
+            >
+              My Skills
+            </h1>
+            <p
+              className="lefts"
+              aria-label=""
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed=".5"
+              data-scroll-delay="0.05"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
+              quos unde velit qui maiores! Ipsam, natus est veritatis corrupti
+              iusto rem veniam, nihil sint fugit, quae earum vero
+            </p>
+          </div>
+          <div className="col-md-6 skill_equal">
+            <div
+              className="skill"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="3"
+              data-scroll-delay="0.05"
+            >
+              <span className="lefts">HTML</span>
+              <div className="mt-2 lefts  footerskills">
+                <div className="faiz"></div>
+              </div>
             </div>
-            <div className="col-md-6 skill_equal"  aria-label=""
-                    data-scroll
-                    data-scroll-direction="horizontal"
-                    data-scroll-speed="7">
-              <div className="skill">
-                <span className="lefts">HTML</span>
-                <div className="mt-2 lefts  footerskills">
-                  <div className="faiz"></div>
-                </div>
+            <div
+              className="skill"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="3"
+              data-scroll-delay="0.05"
+            >
+              <span className="lefts">CSS</span>
+              <div className="mt-2 lefts  footerskills">
+                <div className="faiz2"></div>
               </div>
-              <div className="skill">
-                <span className="lefts">CSS</span>
-                <div className="mt-2 lefts  footerskills">
-                  <div className="faiz2"></div>
-                </div>
+            </div>
+            <div
+              className="skill"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="3"
+              data-scroll-delay="0.05"
+            >
+              <span className="lefts">Bootstrap</span>
+              <div className="mt-2 lefts footerskills">
+                <div className="faiz3"></div>
               </div>
-              <div className="skill">
-                <span className="lefts">Bootstrap</span>
-                <div className="mt-2 lefts footerskills">
-                  <div className="faiz3"></div>
-                </div>
+            </div>
+            <div
+              className="skill"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="3"
+              data-scroll-delay="0.05"
+            >
+              <span className="lefts">JavaScript</span>
+              <div className="mt-2 lefts footerskills">
+                <div className="faiz4"></div>
               </div>
-              <div className="skill">
-                <span className="lefts">JavaScript</span>
-                <div className="mt-2 lefts footerskills">
-                  <div className="faiz4"></div>
-                </div>
-              </div>
-              <div className="skill">
-                <span className="lefts">React</span>
-                <div className="mt-2 lefts footerskills">
-                  <div className="faiz5"></div>
-                </div>
+            </div>
+            <div
+              className="skill"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="3"
+              data-scroll-delay="0.05"
+            >
+              <span className="lefts">React</span>
+              <div className="mt-2 lefts footerskills">
+                <div className="faiz5"></div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <img src="img/item2.png" className="item2" alt="" 
+      data-scroll
+      data-scroll-direction="vertical"
+      data-scroll-speed="5"
+      />
+    </section>
   );
 }

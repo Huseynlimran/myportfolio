@@ -1,7 +1,37 @@
-import React, { useState } from "react";
+import gsap from "gsap";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
+
+  useEffect(() => {
+    gsap.fromTo(".linksNav",{x:100,opacity:0}, {
+      x:0,
+      scale: 1,
+      opacity: 1,
+      duration: 2,
+      stagger:.3
+    });
+   
+    //       // gsap.fromTo(
+    //       //   ".webok",
+    //       //   {
+    //       //     y: 0,
+    //       //     opacity: 0,
+    //       //     ease: Power3.easeOut,
+    //       //   },
+    //       //   {
+    //       //     y: 100,
+    //       //     opacity: 1,
+    //       //     scrollTrigger: {
+    //       //       trigger: ".boxoso",
+    //       //       start:"center",
+    //       //       end : "bottom",
+    //       //       scrub : 3
+    //       //     },
+    //       //   }
+    //       // );
+  }, []);
 
   // useEffect(() => {
   //   gsap.to(".animationnav", {

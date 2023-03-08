@@ -16,7 +16,7 @@ export default function About() {
                 <div className="col-lg-6 col-md-6 col-11 sd"   aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3">
+                    data-scroll-speed="5">
                     <p className="top" >
                         <i className="fas fa-quote-left"></i> Hi, my name is Imran. I'm 25 years old. I'm in the IT field
                         since 2017.I
