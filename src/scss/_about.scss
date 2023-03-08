@@ -1,15 +1,13 @@
-.about{
-    position: relative;
-    scroll-margin-top: 60px;
-    .strs{
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        z-index: -1;
-    }
-}
-
-.about h2 {
+.about {
+  position: relative;
+  scroll-margin-top: 60px;
+  .strs {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  h2 {
     color: $brand;
     color: $brand;
     text-align: center;
@@ -24,7 +22,7 @@
     color: $brand;
     color: transparent;
     line-height: 150%;
-  
+
     background-image: linear-gradient(
       to left,
       $brand,
@@ -52,17 +50,15 @@
     @media (max-width: $breakpoint480) {
       font-size: $big;
     }
-    
-}
-.about .sd {
+  }
+  .sd {
     position: relative;
     box-shadow: 0 0 40px #0000005d;
     overflow: hidden;
     backdrop-filter: blur(6.3px);
     -webkit-backdrop-filter: blur(6.3px);
-}
-
-.about p{
+  }
+  p {
     font-family: $brandFont;
     font-size: 24px;
     color: $font;
@@ -70,21 +66,19 @@
     line-height: 150%;
     padding: 1em 1em;
     font-weight: $slim;
-}
-.about {
-    position: relative;
-}
-
-.about i {
+    span {
+      color: $brand;
+      font-weight: $bold;
+    }
+    
+    @keyframes quote {
+      from {
+        transform: translateY(-5px);
+      }
+    }
+  }
+  i {
     color: $brand;
     animation: quote 1s ease forwards infinite alternate;
-}
-@keyframes quote {
-    from{
-        transform: translateY(-5px);
-    }
-}
-.about p span {
-    color: $brand;
-    font-weight: $bold;
+  }
 }

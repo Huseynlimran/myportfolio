@@ -1,35 +1,34 @@
-import gsap from "gsap";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
 
-  useEffect(() => {
-    gsap.to(".animationnav", {
-      "clip-path": "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-      scale: 1,
-      opacity: 1,
-      duration: 2,
-    });
-    //       // gsap.fromTo(
-    //       //   ".webok",
-    //       //   {
-    //       //     y: 0,
-    //       //     opacity: 0,
-    //       //     ease: Power3.easeOut,
-    //       //   },
-    //       //   {
-    //       //     y: 100,
-    //       //     opacity: 1,
-    //       //     scrollTrigger: {
-    //       //       trigger: ".boxoso",
-    //       //       start:"center",
-    //       //       end : "bottom",
-    //       //       scrub : 3
-    //       //     },
-    //       //   }
-    //       // );
-  }, []);
+  // useEffect(() => {
+  //   gsap.to(".animationnav", {
+  //     "clip-path": "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+  //     scale: 1,
+  //     opacity: 1,
+  //     duration: 2,
+  //   });
+  //   //       // gsap.fromTo(
+  //   //       //   ".webok",
+  //   //       //   {
+  //   //       //     y: 0,
+  //   //       //     opacity: 0,
+  //   //       //     ease: Power3.easeOut,
+  //   //       //   },
+  //   //       //   {
+  //   //       //     y: 100,
+  //   //       //     opacity: 1,
+  //   //       //     scrollTrigger: {
+  //   //       //       trigger: ".boxoso",
+  //   //       //       start:"center",
+  //   //       //       end : "bottom",
+  //   //       //       scrub : 3
+  //   //       //     },
+  //   //       //   }
+  //   //       // );
+  // }, []);
 
   const [active, setActive] = useState("nav-links");
   const [toggleIcon, setToggleIcon] = useState("burger");

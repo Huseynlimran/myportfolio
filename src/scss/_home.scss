@@ -1,6 +1,6 @@
 .home {
-  height: 100vh;
   margin-top: 200px;
+  padding-bottom: 100px;
   span {
     color: $font;
     font-family: $brandFont;
@@ -29,50 +29,42 @@
       color: black;
     }
   }
-}
-
-
-
-.home .colorTwo {
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  border-radius: 50%;
-  background: linear-gradient(rgba(0, 255, 0, 0.678), rgb(255, 255, 132));
-  box-shadow: 0 0 50px var(--BrandColor), 0 20px 30px white;
-  top: 0;
-  right: 15%;
-  z-index: -2;
-  animation: color3 2s forwards infinite alternate;
-}
-.bg7 {
-  position: absolute;
-  width: 500px;
-  height: auto;
-  right: -15%;
-  bottom: 0;
-  z-index: -1;
-}
-
-
-.home .colorThree {
-  position: absolute;
-  width: 5%;
-  height: 200vh;
-  top: -10%;
-  z-index: -2;
-}
-
-@keyframes lilo {
-  from {
-    height: 0%;
+  .colorTwo {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(0, 255, 0, 0.678), rgb(255, 255, 132));
+    box-shadow: 0 0 50px var(--BrandColor), 0 20px 30px white;
+    top: 0;
+    right: 15%;
+    z-index: -2;
+    animation: color3 2s forwards infinite alternate;
   }
-  to {
+  .bg7 {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    right: -15%;
+    bottom: 0;
+    z-index: -1;
+  }
+  .colorThree {
+    position: absolute;
+    width: 5%;
     height: 200vh;
+    top: -10%;
+    z-index: -2;
   }
-}
 
-.home {
+  @keyframes lilo {
+    from {
+      height: 0%;
+    }
+    to {
+      height: 200vh;
+    }
+  }
   position: relative;
   p {
     font-size: 2.1em;
@@ -104,29 +96,25 @@
         background-position: 0 100%;
       }
     }
-    @media(max-width: $breakpoint480){
-        font-size: $big;
+    @media (max-width: $breakpoint480) {
+      font-size: $big;
     }
   }
-}
-
-.home #layer {
-  z-index: 999;
-}
-
-.home i {
-  font-size: 3em;
-  color: $brand;
-  margin: 10px 10px;
-  transition: 0.4s;
-}
-
-.home i:hover {
-  color: rgb(194, 194, 194);
-  padding-right: 10px;
-}
-.box{
-    width: 600px ;
+  #layer {
+    z-index: 999;
+  }
+  i {
+    font-size: 3em;
+    color: $brand;
+    margin: 10px 10px;
+    transition: 0.4s;
+    &:hover {
+      color: rgb(194, 194, 194);
+      padding-right: 10px;
+    }
+  }
+  .box {
+    width: 600px;
     height: 600px;
     border-radius: 50%;
     background-color: $brand;
@@ -136,11 +124,13 @@
     top: 0px;
     animation: anime 10s alternate-reverse infinite;
     @keyframes anime {
-        from{
-            border-radius: 5% 25% 50% 75%;
-        }
-        to{
-            border-radius: 5%;
-        }
+      from {
+        border-radius: 5% 25% 50% 75%;
+      }
+      to {
+        border-radius: 5%;
+      }
     }
+  }
 }
+
