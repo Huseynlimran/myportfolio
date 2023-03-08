@@ -8,7 +8,6 @@ import Project from "./pages/Project";
 import Skills from "./pages/Skills";
 import {
   LocomotiveScrollProvider,
-  useLocomotiveScroll,
 } from "react-locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import { useRef } from "react";
