@@ -35,21 +35,18 @@ export default function Home() {
   return (
     <section className="home mt-5 pt-5 mb-0" id="home">
       <div className="container">
-        <div className="row pt-md-5 mt-5" data-scroll-section>
+        <div className="row pt-md-5 mt-5">
           <div className="col-md-6 d-flex flex-column align-items-start justify-content-md-center">
             <h1 className="display-1">
               <div className="boxoso">
                 <div className="d-flex">
-                  <span id="layer" className="sol" data-scroll>
+                  <span id="layer" className="sol">
                     H
                   </span>
                   <span
                     id="layer"
                     className="sol"
-                    aria-label=""
-                    data-scroll
-                    data-scroll-direction="horizontal"
-                    data-scroll-speed="3"
+                    
                   >
                     i
                   </span>
@@ -126,7 +123,10 @@ export default function Home() {
                 </div>
               </div>
             </h1>
-            <p className="mt-2 my-4 sol webok">Front end developer</p>
+            <p className="mt-2 my-4 sol webok"  aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="1">Front end developer</p>
             <a
               href="mailto: huseynlimran@gmail.com"
               className="cnt text-center mb-4 sol"
