@@ -6,12 +6,18 @@ export default function About() {
         <div className="container-lg">
             <div className="row text-center">
                 <div className="col-12">
-                    <h2>About Me</h2>
+                    <h2   aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3" >About Me</h2>
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-lg-6 col-md-6 col-11 sd">
-                    <p className="top">
+                <div className="col-lg-6 col-md-6 col-11 sd"   aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3">
+                    <p className="top" >
                         <i className="fas fa-quote-left"></i> Hi, my name is Imran. I'm 25 years old. I'm in the IT field
                         since 2017.I
                         have interests on learning new languages and framework. I studied
@@ -27,7 +33,10 @@ export default function About() {
                 </div>
             </div>
         </div>
-        <img src="img/IMAGE.png" className="strs top" alt=""></img>
+        <img src="img/IMAGE.png"   aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="7" className="strs top" alt=""></img>
 
 
     </section>

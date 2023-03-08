@@ -10,7 +10,9 @@ export default function Project() {
             <div className="row mt-5" id="data"  aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3">
+                    data-scroll-speed="3"
+                    
+                    >
                 <div className="col-md-3 col-6 left mt-md-0 px-0">
                     <div className="muncim">
                         <img src="img/muncim.ro.png" className="img-fluid " alt=""></img>

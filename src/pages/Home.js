@@ -48,38 +48,74 @@ export default function Home() {
                     className="sol"
                     
                   >
-                    i
+                    i 
                   </span>
                   <span id="layer" className="sol">
                     ,
                   </span>
                 </div>
                 <div className="d-flex sol words">
-                  <span id="layer" className="sol">
+                  <span id="layer" className="sol"  aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3" 
+                     data-scroll-delay="0.800">
                     I
                   </span>
-                  <span id="layer" className="sol">
+                  <span id="layer" className="sol"  aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                     data-scroll-delay="0.18">
                     '
                   </span>
-                  <span id="layer" className="me-4 sol">
+                  <span id="layer" className="me-4 sol"  aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                     data-scroll-delay="0.18">
                     m
                   </span>
-                  <span id="layer" className="fw-bold sol">
+                  <span id="layer" className="fw-bold sol"  aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                     data-scroll-delay="0.18">
                     I
                   </span>
-                  <span id="layer" className="fw-bold sol">
+                  <span id="layer" className="fw-bold sol"  aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                     data-scroll-delay="0.18">
                     m
                   </span>
-                  <span id="layer" className="fw-bold sol">
+                  <span id="layer" className="fw-bold sol"  aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                     data-scroll-delay="0.18">
                     r
                   </span>
-                  <span id="layer" className="fw-bold sol">
+                  <span id="layer" className="fw-bold sol"  aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                     data-scroll-delay="0.18">
                     a
                   </span>
-                  <span id="layer" className="fw-bold sol">
+                  <span id="layer" className="fw-bold sol"  aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                     data-scroll-delay="0.18">
                     n
                   </span>
-                  <span id="layer" className="fw-bold sol">
+                  <span id="layer" className="fw-bold sol"  aria-label=""
+                    data-scroll
+                    data-scroll-direction="vertical"
+                    data-scroll-speed="3"
+                     data-scroll-delay="0.18">
                     ,
                   </span>
                 </div>
