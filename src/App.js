@@ -6,28 +6,38 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Skills from "./pages/Skills";
-
-
+import {
+  LocomotiveScrollProvider,
+  useLocomotiveScroll,
+} from "react-locomotive-scroll";
+import "locomotive-scroll/dist/locomotive-scroll.css";
+import { useRef } from "react";
 
 function App() {
-
+  const containerRef = useRef(null);
 
   return (
-    <div className="app">
-      <div className="wrapper">
-        <div className="content">
-          <BrowserRouter>
-            <Navigation />
-            <Home />
-            <Skills />
-            <Project />
-            <About />
-            <Footer />
-          </BrowserRouter>
+    <LocomotiveScrollProvider
+      containerRef={containerRef}
+      options={{
+        smooth: true,
+      }}
+    >
+      <div className="app" data-scroll-container ref={containerRef}>
+        <div className="wrapper">
+          <div className="content">
+            <BrowserRouter>
+              <Navigation data-scroll-section />
+              <Home data-scroll-section />
+              <Skills />
+              <Project data-scroll-section />
+              <About data-scroll-section />
+              <Footer data-scroll-section />
+            </BrowserRouter>
+          </div>
         </div>
-      </div>
 
-      {/* <BrowserRouter>
+        {/* <BrowserRouter>
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -37,7 +47,8 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter> */}
-    </div>
+      </div>
+    </LocomotiveScrollProvider>
   );
 }
 
