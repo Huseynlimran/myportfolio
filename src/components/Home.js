@@ -1,5 +1,8 @@
 import gsap from "gsap";
 import React, { useEffect } from "react";
+import {BsGithub} from "react-icons/bs";
+import {FiLinkedin} from "react-icons/fi";
+import { Link } from "react-router-dom";
 // import { ScrollTrigger } from "gsap/all";
 
 // gsap.registerPlugin(ScrollTrigger);
@@ -17,6 +20,16 @@ export default function Home() {
       }
     );
     gsap.fromTo(
+      ".icons",
+      { opacity: 0,x:50},
+      {
+        x:0,
+        opacity: 1,
+        duration: 1,
+        stagger: 0.2,
+      }
+    );
+    gsap.fromTo(
       ".itemHome",
       { opacity: 0, y: -200 },
       {
@@ -24,8 +37,7 @@ export default function Home() {
         scale: 1,
         opacity: 1,
         duration: 3,
-        delay: 1,
-      }
+        delay: .02     }
     );
     //       // gsap.fromTo(
     //       //   ".webok",
@@ -61,8 +73,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     H
                   </span>
@@ -72,8 +84,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     i
                   </span>
@@ -83,8 +95,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     ,
                   </span>
@@ -96,8 +108,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     I
                   </span>
@@ -107,8 +119,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.15"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     '
                   </span>
@@ -118,8 +130,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.25"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     m
                   </span>
@@ -129,8 +141,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.35"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     I
                   </span>
@@ -140,8 +152,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.05"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     m
                   </span>
@@ -151,8 +163,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.05"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     r
                   </span>
@@ -162,8 +174,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.05"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     a
                   </span>
@@ -173,8 +185,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.05"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     n
                   </span>
@@ -184,8 +196,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.05"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     ,
                   </span>
@@ -197,8 +209,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     W
                   </span>
@@ -208,8 +220,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     e
                   </span>
@@ -219,8 +231,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     b
                   </span>
@@ -230,8 +242,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     D
                   </span>
@@ -241,8 +253,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     e
                   </span>
@@ -252,8 +264,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     v
                   </span>
@@ -263,8 +275,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     e
                   </span>
@@ -274,8 +286,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     l
                   </span>
@@ -285,8 +297,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     o
                   </span>
@@ -296,8 +308,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     p
                   </span>
@@ -307,8 +319,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     e
                   </span>
@@ -318,8 +330,8 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5"
-                    data-scroll-delay="0.5"
+                    data-scroll-speed="1"
+                    data-scroll-delay="0.02"
                   >
                     r
                   </span>
@@ -331,7 +343,7 @@ export default function Home() {
               aria-label=""
               data-scroll
               data-scroll-direction="vertical"
-              data-scroll-speed="1"
+              data-scroll-speed="2"
             >
               Front end developer
             </p>
@@ -340,6 +352,10 @@ export default function Home() {
               className="cnt text-center mb-4 sol"
               target="_blank"
               rel="noreferrer"
+              aria-label=""
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="2"
             >
               Contact
             </a>
@@ -351,25 +367,33 @@ export default function Home() {
               alt=""
               data-scroll
               data-scroll-direction="vertical"
-              data-scroll-speed="7"
-              data-scroll-delay="0.05"
+              data-scroll-speed="5"
+              data-scroll-delay="0.02"
             />
-            <a
-              href="https://github.com/Huseynlimran"
+            <Link
+              to="https://github.com/Huseynlimran"
               target="_blank"
               rel="noreferrer"
-              className="sag"
+              className="sag me-md-0 me-2"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="2"
+              data-scroll-delay="0.02"
             >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/imran-huseynli-406347220/"
+              <BsGithub className="icons"/>
+            </Link>
+            <Link
+              to="https://www.linkedin.com/in/imran-huseynli-406347220/"
               className="sag"
               target="_blank"
               rel="noreferrer"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="-1"
+              data-scroll-delay="0.02"
             >
-              <i className="fab fa-linkedin"></i>
-            </a>
+              <FiLinkedin className="icons" />
+            </Link>
           </div>
         </div>
       </div>
@@ -379,9 +403,9 @@ export default function Home() {
           className="myname"
           data-scroll
           data-scroll-direction="horizontal"
-          data-scroll-speed="7"
+          data-scroll-speed="1"
           data-scroll-target="#direction"
-          data-scroll-delay="0.05"
+          data-scroll-delay=".02""
         >
           HUSEYNLI IMRAN FRONT END DEVELOPER
         </h1>

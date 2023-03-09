@@ -7,6 +7,9 @@
   margin-bottom: 80px;
   padding-bottom: 300px;
   border-radius: 35% 35% 0% 0;
+  @media(max-width: $breakpoint768){
+    padding-bottom: 350px;
+  }
   
   h3 {
     color: black;

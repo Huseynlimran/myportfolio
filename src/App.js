@@ -2,10 +2,10 @@
 import { BrowserRouter } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navbar";
-import About from "./pages/About";
-import Home from "./pages/Home";
-import Project from "./pages/Project";
-import Skills from "./pages/Skills";
+import About from "./components/About";
+import Home from "./components/Home";
+import Project from "./components/Project";
+import Skills from "./components/Skills";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import { useRef } from "react";

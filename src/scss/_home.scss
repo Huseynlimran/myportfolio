@@ -8,9 +8,19 @@
       font-size: $big;
     }
   }
+  .icons{
+    color: $brand;
+    font-size: 36px;
+    margin-bottom: 20px;
+    transition: .4s;
+    &:hover{
+      color: $font;
+    }
+  }
 
   .itemHome{
-    width: 100%;
+    max-width: 900px;
+    width:100%;
     height: auto;
     z-index: -1;
     position: absolute;
