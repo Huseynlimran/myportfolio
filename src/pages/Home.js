@@ -27,18 +27,6 @@ export default function Home() {
         delay: 1,
       }
     );
-    gsap.fromTo(
-      ".myname",
-      { x: -1000 },
-      {
-        x: 1000,
-        duration: 10,
-        paused: false,
-        draggable: true,
-        repeat: true,
-        reversed:true
-      }
-    );
     //       // gsap.fromTo(
     //       //   ".webok",
     //       //   {
@@ -84,7 +72,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     i
@@ -95,7 +83,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     ,
@@ -108,7 +96,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     I
@@ -119,7 +107,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.15"
                   >
                     '
@@ -130,7 +118,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.25"
                   >
                     m
@@ -141,7 +129,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.35"
                   >
                     I
@@ -152,7 +140,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.05"
                   >
                     m
@@ -163,7 +151,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.05"
                   >
                     r
@@ -174,7 +162,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.05"
                   >
                     a
@@ -185,7 +173,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.05"
                   >
                     n
@@ -196,7 +184,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.05"
                   >
                     ,
@@ -209,7 +197,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     W
@@ -220,18 +208,18 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     e
                   </span>
                   <span
                     id="layer"
-                    className="me-3 sol"
+                    className="me-5 sol"
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     b
@@ -242,7 +230,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     D
@@ -253,7 +241,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     e
@@ -264,7 +252,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     v
@@ -275,7 +263,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     e
@@ -286,7 +274,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     l
@@ -297,7 +285,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     o
@@ -308,7 +296,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     p

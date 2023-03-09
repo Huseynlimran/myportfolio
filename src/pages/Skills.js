@@ -52,7 +52,7 @@ export default function Skills() {
           <div
             className="col-md-6  mb-md-0 mb-5"
             data-scroll
-            data-scroll-direction="horizontal"
+            data-scroll-direction="vertiocal"
             data-scroll-speed="3"
             data-scroll-delay="0.05"
           >
@@ -63,7 +63,10 @@ export default function Skills() {
               iusto rem veniam, nihil sint fugit, quae earum vero
             </p>
           </div>
-          <div className="col-md-6 skill_equal">
+          <div className="col-md-6 skill_equal" data-scroll
+            data-scroll-direction="vertiocal"
+            data-scroll-speed="-1"
+            data-scroll-delay="0.05">
             <div className="skill">
               <span className="lefts">HTML</span>
               <div className="mt-2 lefts  footerskills">

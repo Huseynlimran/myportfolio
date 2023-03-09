@@ -18,10 +18,7 @@ export default function Project() {
           <div className="col-md-3 col-6 left mt-md-0 px-0">
             <div
               className="muncim"
-              data-scroll
-              data-scroll-direction="vertical"
-              data-scroll-speed="3"
-              data-scroll-delay="0.05"
+              
             >
               <img src="img/muncim.ro.png" className="img-fluid " alt=""></img>
               <Link
@@ -37,10 +34,7 @@ export default function Project() {
           <div className="col-md-3 col-6 left my-md-0 px-0">
             <div
               className="muncim"
-              data-scroll
-              data-scroll-direction="vertical"
-              data-scroll-speed="3"
-              data-scroll-delay="0.05"
+              
             >
               <img src="img/Nike.png" className="img-fluid " alt=""></img>
               <Link
@@ -56,10 +50,7 @@ export default function Project() {
           <div className="col-md-3 col-6 left my-md-0 px-0">
             <div
               className="muncim"
-              data-scroll
-              data-scroll-direction="vertical"
-              data-scroll-speed="3"
-              data-scroll-delay="0.05"
+            
             >
               <img src="img/Room.png" className="img-fluid " alt=""></img>
               <Link
@@ -75,10 +66,7 @@ export default function Project() {
           <div className="col-md-3 col-6 left my-md-0 px-0">
             <div
               className="muncim"
-              data-scroll
-              data-scroll-direction="vertical"
-              data-scroll-speed="3"
-              data-scroll-delay="0.05"
+              
             >
               <img src="img/Forten.png" className="img-fluid " alt=""></img>
               <Link
@@ -95,10 +83,7 @@ export default function Project() {
           <div className="col-md-3 col-6 left mt-md-0 px-0">
             <div
               className="muncim"
-              data-scroll
-              data-scroll-direction="vertical"
-              data-scroll-speed="3"
-              data-scroll-delay="0.05"
+              
             >
               <img src="img/x-zone.png" className="img-fluid " alt=""></img>
               <Link
@@ -114,10 +99,7 @@ export default function Project() {
           <div className="col-md-3 col-6 left my-md-0 px-0">
             <div
               className="muncim"
-              data-scroll
-              data-scroll-direction="vertical"
-              data-scroll-speed="3"
-              data-scroll-delay="0.05"
+              
             >
               <img src="img/Dudeshape.png" className="img-fluid " alt=""></img>
               <Link
@@ -133,10 +115,7 @@ export default function Project() {
           <div className="col-md-3 col-6 left my-md-0 px-0">
             <div
               className="muncim"
-              data-scroll
-              data-scroll-direction="vertical"
-              data-scroll-speed="3"
-              data-scroll-delay="0.05"
+              
             >
               <img src="img/aiman.png" className="img-fluid " alt=""></img>
               <Link
@@ -152,10 +131,7 @@ export default function Project() {
           <div className="col-md-3 col-6 left my-md-0 px-0">
             <div
               className="muncim"
-              data-scroll
-              data-scroll-direction="vertical"
-              data-scroll-speed="3"
-              data-scroll-delay="0.05"
+              
             >
               <img src="img/avasite.PNG" className="img-fluid " alt=""></img>
               <Link
@@ -172,10 +148,7 @@ export default function Project() {
             <div className="col-md-3 d-flex justify-content-md-center col-6 left mt-md-0 px-0">
               <div
                 className="muncim"
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="3"
-                data-scroll-delay="0.05"
+                
               >
                 <img
                   src="img/2022-01-21-10-11-huseynlimran.github.io.png"
@@ -195,10 +168,7 @@ export default function Project() {
             <div className="col-md-3 d-flex justify-content-md-center col-6 left mt-md-0 px-0">
               <div
                 className="muncim"
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="5"
-                data-scroll-delay="0.05"
+                
               >
                 <img src="img/nft.png" className="img-fluid " alt=""></img>
                 <Link
