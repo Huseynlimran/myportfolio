@@ -74,7 +74,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     H
                   </span>
@@ -85,7 +85,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     i
                   </span>
@@ -96,7 +96,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     ,
                   </span>
@@ -109,7 +109,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     I
                   </span>
@@ -120,7 +120,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     '
                   </span>
@@ -131,7 +131,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     m
                   </span>
@@ -142,7 +142,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     I
                   </span>
@@ -153,7 +153,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     m
                   </span>
@@ -164,7 +164,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     r
                   </span>
@@ -175,7 +175,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     a
                   </span>
@@ -186,7 +186,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     n
                   </span>
@@ -197,7 +197,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     ,
                   </span>
@@ -210,7 +210,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     W
                   </span>
@@ -221,7 +221,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     e
                   </span>
@@ -232,7 +232,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     b
                   </span>
@@ -243,7 +243,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     D
                   </span>
@@ -254,7 +254,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     e
                   </span>
@@ -265,7 +265,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     v
                   </span>
@@ -276,7 +276,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     e
                   </span>
@@ -287,7 +287,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     l
                   </span>
@@ -298,7 +298,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     o
                   </span>
@@ -309,7 +309,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     p
                   </span>
@@ -320,7 +320,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     e
                   </span>
@@ -331,7 +331,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="1"
-                    data-scroll-delay="0.02"
+                    
                   >
                     r
                   </span>
@@ -368,7 +368,7 @@ export default function Home() {
               data-scroll
               data-scroll-direction="vertical"
               data-scroll-speed="5"
-              data-scroll-delay="0.02"
+              
             />
             <Link
               to="https://github.com/Huseynlimran"
@@ -378,7 +378,7 @@ export default function Home() {
               data-scroll
               data-scroll-direction="vertical"
               data-scroll-speed="2"
-              data-scroll-delay="0.02"
+              
             >
               <BsGithub className="icons"/>
             </Link>
@@ -390,7 +390,7 @@ export default function Home() {
               data-scroll
               data-scroll-direction="vertical"
               data-scroll-speed="-1"
-              data-scroll-delay="0.02"
+              
             >
               <FiLinkedin className="icons" />
             </Link>
