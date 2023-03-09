@@ -61,7 +61,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     H
@@ -307,7 +307,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     e
@@ -318,7 +318,7 @@ export default function Home() {
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="3"
+                    data-scroll-speed="5"
                     data-scroll-delay="0.5"
                   >
                     r
