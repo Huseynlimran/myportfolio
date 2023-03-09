@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className="about my-5 pt-5" id="aboutme">
+    <section className="about my-5 pt-5" id="aboutme" data-scroll-section>
         <div className="container-lg">
             <div className="row text-center">
                 <div className="col-12">

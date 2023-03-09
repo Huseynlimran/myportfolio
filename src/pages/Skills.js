@@ -46,7 +46,7 @@ export default function Skills() {
   // }, []);
 
   return (
-    <section className="MySkills mb-5 pb-5" id="myskills">
+    <section className="MySkills mb-5 pb-5" id="myskills" data-scroll-section>
       <div className="container">
         <div className="row">
           <div

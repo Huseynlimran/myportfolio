@@ -1,49 +1,62 @@
 .footer {
+  background-color: $brand;
   width: 100%;
-  height: 20vh;
+  height: 40vh;
   position: relative;
   padding-left: 10px;
   margin-bottom: 80px;
-  margin-top: 250px;
+  padding-bottom: 300px;
+  border-radius: 35% 35% 0% 0;
+  
   h3 {
-    color: $font;
+    color: black;
+    font-family: $brandFont;
+
   }
 
   .logoMini {
     display: block;
     text-decoration: none;
     font-size: 3em;
-    color: $brand;
+    font-family: $brandFont;
+    color: black;
     font-weight: bold;
     transition: all 0.4s;
-    span {
-      color: rgba(0, 0, 0, 0.76);
-      font-style: italic;
-    }
-    &:hover {
-      color: black;
-    }
+  }
+  .socialIcon{
+    color: black;
+  }
+  .socialItems{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: $bold;
   }
 
   .social {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 15px;
+    height: 100%;
+    color: black;
+  }
+  .navFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
   .navfooter {
     list-style: none;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
     text-decoration: none;
-    color: $font;
-    transition: all 0.4s;
+    color: black;
+    transition:  0.4s;
     font-size: 18px;
-    &:hover {
-      color: $brand;
-      padding-left: 5px;
-    }
+    font-family: $brandFont;
+      &:hover {
+        color: $font;
+        padding-left: 5px;
+      }
   }
   @media (max-width: 600px) {
     .footer ul {

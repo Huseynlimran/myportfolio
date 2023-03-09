@@ -48,7 +48,7 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="home mt-5 pt-5 mb-0" id="home">
+    <section className="home mt-5 pt-5 mb-0" id="home" data-scroll-section>
       <div className="container">
         <div className="row pt-md-5 mt-5">
           <div className="col-md-6 d-flex flex-column align-items-start justify-content-md-center">
