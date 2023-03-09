@@ -120,7 +120,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                    data-scroll-delay="0.05"
+                    data-scroll-delay="0.15"
                   >
                     '
                   </span>
@@ -131,7 +131,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                    data-scroll-delay="0.05"
+                    data-scroll-delay="0.25"
                   >
                     m
                   </span>
@@ -142,7 +142,7 @@ export default function Home() {
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3"
-                    data-scroll-delay="0.05"
+                    data-scroll-delay="0.35"
                   >
                     I
                   </span>
@@ -386,7 +386,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="direction">
+      {/* <div id="direction">
         <h1
           className="myname"
           data-scroll
@@ -397,7 +397,7 @@ export default function Home() {
         >
           HUSEYNLI IMRAN FRONT END DEVELOPER
         </h1>
-      </div>
+      </div> */}
 
       {/* <div className="box"></div> */}
     </section>

@@ -34,8 +34,8 @@
     background-clip: text;
     -webkit-background-clip: text;
     animation: animate 15s linear infinite alternate-reverse;
-    background-size: 800%;
-    -webkit-background-size: 800%;
+    background-size: 200%;
+    -webkit-background-size: 200%;
     @keyframes animate {
       0% {
         background-position: 0 100%;

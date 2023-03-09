@@ -30,30 +30,19 @@ function App() {
           smooth: true,
           getDirection: true,
         },
+        
       }}
     >
-      <div className="app" data-scroll-container ref={containerRef}>
         <BrowserRouter>
-          <div>
             <Navigation />
-          </div>
-          <div data-scroll-section>
+      <div className="app" data-scroll-container ref={containerRef}>
             <Home />
-          </div>
-          <div data-scroll-section>
             <Skills />
-          </div>
-          <div data-scroll-section>
             <Project />
-          </div>
-          <div data-scroll-section>
             <About />
-          </div>
-          <div data-scroll-section>
             <Footer />
-          </div>
-        </BrowserRouter>
       </div>
+        </BrowserRouter>
 
       {/* <BrowserRouter>
         <Navigation />
