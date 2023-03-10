@@ -16,26 +16,15 @@ export default function Project() {
           data-scroll-speed="3"
         >
           <div className="col-md-3 col-6 left mt-md-0 px-0">
-            <div
-              className="muncim"
-              
-            >
+            <div className="muncim">
               <img src="img/muncim.ro.png" className="img-fluid " alt=""></img>
-              <Link
-                to="https://huseynlimran.github.io/Muncin/"
-                className="muncimLink"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <Link to="/muncim" className="muncimLink" rel="noreferrer">
                 Visit my project
               </Link>
             </div>
           </div>
           <div className="col-md-3 col-6 left my-md-0 px-0">
-            <div
-              className="muncim"
-              
-            >
+            <div className="muncim">
               <img src="img/Nike.png" className="img-fluid " alt=""></img>
               <Link
                 to="https://huseynlimran.github.io/NikeProject"
@@ -48,10 +37,7 @@ export default function Project() {
             </div>
           </div>
           <div className="col-md-3 col-6 left my-md-0 px-0">
-            <div
-              className="muncim"
-            
-            >
+            <div className="muncim">
               <img src="img/Room.png" className="img-fluid " alt=""></img>
               <Link
                 to="https://huseynlimran.github.io/Room/"
@@ -64,10 +50,7 @@ export default function Project() {
             </div>
           </div>
           <div className="col-md-3 col-6 left my-md-0 px-0">
-            <div
-              className="muncim"
-              
-            >
+            <div className="muncim">
               <img src="img/Forten.png" className="img-fluid " alt=""></img>
               <Link
                 to="https://huseynlimran.github.io/Forten/"
@@ -81,10 +64,7 @@ export default function Project() {
           </div>
 
           <div className="col-md-3 col-6 left mt-md-0 px-0">
-            <div
-              className="muncim"
-              
-            >
+            <div className="muncim">
               <img src="img/x-zone.png" className="img-fluid " alt=""></img>
               <Link
                 to="https://huseynlimran.github.io/X-zone/"
@@ -97,10 +77,7 @@ export default function Project() {
             </div>
           </div>
           <div className="col-md-3 col-6 left my-md-0 px-0">
-            <div
-              className="muncim"
-              
-            >
+            <div className="muncim">
               <img src="img/Dudeshape.png" className="img-fluid " alt=""></img>
               <Link
                 to="https://huseynlimran.github.io/DudeShape/"
@@ -113,10 +90,7 @@ export default function Project() {
             </div>
           </div>
           <div className="col-md-3 col-6 left my-md-0 px-0">
-            <div
-              className="muncim"
-              
-            >
+            <div className="muncim">
               <img src="img/aiman.png" className="img-fluid " alt=""></img>
               <Link
                 to="https://aimanimr.netlify.app"
@@ -129,10 +103,7 @@ export default function Project() {
             </div>
           </div>
           <div className="col-md-3 col-6 left my-md-0 px-0">
-            <div
-              className="muncim"
-              
-            >
+            <div className="muncim">
               <img src="img/avasite.PNG" className="img-fluid " alt=""></img>
               <Link
                 to="https://huseynlimran.github.io/ava/"
@@ -146,10 +117,7 @@ export default function Project() {
           </div>
           <div className="d-flex justify-content-center p-0">
             <div className="col-md-3 d-flex justify-content-md-center col-6 left mt-md-0 px-0">
-              <div
-                className="muncim"
-                
-              >
+              <div className="muncim">
                 <img
                   src="img/2022-01-21-10-11-huseynlimran.github.io.png"
                   className="img-fluid "
@@ -166,10 +134,7 @@ export default function Project() {
               </div>
             </div>
             <div className="col-md-3 d-flex justify-content-md-center col-6 left mt-md-0 px-0">
-              <div
-                className="muncim"
-                
-              >
+              <div className="muncim">
                 <img src="img/nft.png" className="img-fluid " alt=""></img>
                 <Link
                   to="https://huseynlimran.github.io/BaseNft/"
@@ -184,6 +149,7 @@ export default function Project() {
           </div>
         </div>
       </div>
+      
     </section>
   );
 }

@@ -126,7 +126,7 @@ export default function Home() {
                   </span>
                   <span
                     id="layer"
-                    className="me-4 sol"
+                    className="me-md-3 me-2 sol"
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
@@ -227,7 +227,7 @@ export default function Home() {
                   </span>
                   <span
                     id="layer"
-                    className="me-5 sol"
+                    className="me-md-3 me-2 sol"
                     aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
@@ -389,7 +389,7 @@ export default function Home() {
               rel="noreferrer"
               data-scroll
               data-scroll-direction="vertical"
-              data-scroll-speed="-1"
+              data-scroll-speed="2"
               
             >
               <FiLinkedin className="icons" />

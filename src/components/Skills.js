@@ -50,9 +50,9 @@ export default function Skills() {
       <div className="container">
         <div className="row">
           <div
-            className="col-md-6  mb-md-0 mb-5"
+            className="col-md-6  mb-md-0 mb-0"
             data-scroll
-            data-scroll-direction="vertiocal"
+            data-scroll-direction="vertical"
             data-scroll-speed="3"
             
           >
@@ -64,8 +64,8 @@ export default function Skills() {
             </p>
           </div>
           <div className="col-md-6 skill_equal" data-scroll
-            data-scroll-direction="vertiocal"
-            data-scroll-speed="-1"
+            data-scroll-direction="vertical"
+            data-scroll-speed="3"
             data>
             <div className="skill">
               <span className="lefts">HTML</span>
@@ -100,6 +100,8 @@ export default function Skills() {
           </div>
         </div>
       </div>
+
+     
       {/* <img src="img/item2.png" className="item2" alt="" 
       data-scroll
       data-scroll-direction="vertical"

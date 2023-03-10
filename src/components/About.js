@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className="about my-5 pt-5" id="aboutme" data-scroll-section>
+    <section className="about my-4 pt-2" id="aboutme" data-scroll-section>
         <div className="container-lg">
             <div className="row text-center">
                 <div className="col-12">
@@ -13,10 +13,10 @@ export default function About() {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-lg-6 col-md-6 col-11 sd"   aria-label=""
+                <div className="col-lg-6 col-md-8 col-11 sd"   aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="5">
+                    data-scroll-speed="7">
                     <p className="top" >
                         <i className="fas fa-quote-left"></i> Hi, my name is Imran. I'm 25 years old. I'm in the IT field
                         since 2017.I
@@ -28,7 +28,7 @@ export default function About() {
                         in the web development field. <i className="fas fa-quote-right"></i>
                     </p>
                     <div className="">
-                        <img src="img/undraw_static_assets_rpm6 1 (2).svg" className="img-fluid top" alt=""></img>
+                        <img src="img/undraw_static_assets_rpm6 1 (2).svg" className="img-fluid " alt=""></img>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@ export default function About() {
         <img src="img/IMAGE.png"   aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
-                    data-scroll-speed="7" className="strs top" alt=""></img>
+                    data-scroll-speed="3" className="strs top" alt=""></img>
 
 
     </section>
