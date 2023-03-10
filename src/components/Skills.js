@@ -65,11 +65,11 @@ export default function Skills() {
             </p>
           </div>
           <div className="col-md-6 skill_equal" data-scroll
-            data-scroll-direction="vertical"
-            data-scroll-speed="3"
-            data-scroll-sticky
+          data-scroll-direction="vertical"
+            data-scroll-speed="6"
+            data-scroll-delay="0.18"
             
-            data>
+            >
             <div className="skill">
               <span className="lefts">HTML</span>
               <div className="mt-2 lefts  footerskills">

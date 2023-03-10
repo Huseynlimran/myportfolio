@@ -48,7 +48,7 @@ export default function Home() {
         gsap.fromTo(
           ".active2",
           {
-            scaleY: 2.6,
+            scaleY: 1.5,
             scaleX: 0.6,
             ease: Elastic,
           },
@@ -62,131 +62,124 @@ export default function Home() {
         });
       });
     });
-    //       // gsap.fromTo(
-    //       //   ".webok",
-    //       //   {
-    //       //     y: 0,
-    //       //     opacity: 0,
-    //       //     ease: Power3.easeOut,
-    //       //   },
-    //       //   {
-    //       //     y: 100,
-    //       //     opacity: 1,
-    //       //     scrollTrigger: {
-    //       //       trigger: ".boxoso",
-    //       //       start:"center",
-    //       //       end : "bottom",
-    //       //       scrub : 3
-    //       //     },
-    //       //   }
-    //       // );
+    // gsap.fromTo(
+    //   ".webok",
+    //   {
+    //     y: 0,
+    //     opacity: 0,
+    //     ease: Power3.easeOut,
+    //   },
+    //   {
+    //     y: 100,
+    //     opacity: 1,
+    //     scrollTrigger: {
+    //       trigger: ".boxoso",
+    //       start:"center",
+    //       end : "bottom",
+    //       scrub : 3
+    //     },
+    //   }
+    // );
   }, []);
 
   return (
     <section className="home mt-5 pt-5 mb-0" id="home" data-scroll-section>
-      <div className="container">
+      <div
+        className="container"
+        data-scroll
+        data-scroll-direction="vertical"
+        data-scroll-speed="5"
+      >
         <div className="row pt-md-5 mt-5">
-          <div className="col-md-6 d-flex flex-column align-items-start justify-content-md-center"
-          >
-            <h1 className="display-1">
-              <div
-                className="boxoso"
-                aria-label=""
-                data-scroll
-                data-scroll-direction="vertical"
-                data-scroll-speed="3"
-              >
-                <div className="d-flex">
-                  <span id="layer" className="sol">
-                    H
-                  </span>
-                  <span id="layer" className="sol">
-                    i
-                  </span>
-                  <span id="layer" className="sol">
-                    ,
-                  </span>
-                </div>
-                <div className="d-flex sol words">
-                  <span id="layer" className="sol">
-                    I
-                  </span>
-                  <span id="layer" className="sol">
-                    '
-                  </span>
-                  <span id="layer" className="me-md-3 me-2 sol">
-                    m
-                  </span>
-                  <span id="layer" className="fw-bold sol">
-                    I
-                  </span>
-                  <span id="layer" className="fw-bold sol">
-                    m
-                  </span>
-                  <span id="layer" className="fw-bold sol">
-                    r
-                  </span>
-                  <span id="layer" className="fw-bold sol">
-                    a
-                  </span>
-                  <span id="layer" className="fw-bold sol">
-                    n
-                  </span>
-                  <span id="layer" className="fw-bold sol">
-                    ,
-                  </span>
-                </div>
-                <div className="d-flex">
-                  <span id="layer" className="sol">
-                    W
-                  </span>
-                  <span id="layer" className="sol">
-                    e
-                  </span>
-                  <span id="layer" className="me-md-3 me-2 sol">
-                    b
-                  </span>
-                  <span id="layer" className="sol">
-                    D
-                  </span>
-                  <span id="layer" className="sol">
-                    e
-                  </span>
-                  <span id="layer" className="sol">
-                    v
-                  </span>
-                  <span id="layer" className="sol">
-                    e
-                  </span>
-                  <span id="layer" className="sol">
-                    l
-                  </span>
-                  <span id="layer" className="sol">
-                    o
-                  </span>
-                  <span id="layer" className="sol">
-                    p
-                  </span>
-                  <span id="layer" className="sol">
-                    e
-                  </span>
-                  <span id="layer" className="sol">
-                    r
-                  </span>
-                </div>
-              </div>
-            </h1>
-            <p
-              className="mt-2 my-4 sol webok"
+          <div className="col-md-6 d-flex flex-column align-items-start justify-content-md-center" data-scroll
+            data-scroll-direction="vertical"
+            data-scroll-speed="6"
+            data-scroll-delay="0.18"
             >
-              Front end developer
-            </p>
+            <div className="d-flex display-1" >
+              <span id="layer" className="sol">
+                H
+              </span>
+              <span id="layer" className="sol">
+                i
+              </span>
+              <span id="layer" className="sol">
+                ,
+              </span>
+            </div>
+            <div className="d-flex display-1 sol words">
+              <span id="layer" className="sol">
+                I
+              </span>
+              <span id="layer" className="sol">
+                '
+              </span>
+              <span id="layer" className="me-md-3 me-2 sol">
+                m
+              </span>
+              <span id="layer" className="fw-bold sol">
+                I
+              </span>
+              <span id="layer" className="fw-bold sol">
+                m
+              </span>
+              <span id="layer" className="fw-bold sol">
+                r
+              </span>
+              <span id="layer" className="fw-bold sol">
+                a
+              </span>
+              <span id="layer" className="fw-bold sol">
+                n
+              </span>
+              <span id="layer" className="fw-bold sol">
+                ,
+              </span>
+            </div>
+            <div className="d-flex display-1">
+              <span id="layer" className="sol">
+                W
+              </span>
+              <span id="layer" className="sol">
+                e
+              </span>
+              <span id="layer" className="me-md-3 me-2 sol">
+                b
+              </span>
+              <span id="layer" className="sol">
+                D
+              </span>
+              <span id="layer" className="sol">
+                e
+              </span>
+              <span id="layer" className="sol">
+                v
+              </span>
+              <span id="layer" className="sol">
+                e
+              </span>
+              <span id="layer" className="sol">
+                l
+              </span>
+              <span id="layer" className="sol">
+                o
+              </span>
+              <span id="layer" className="sol">
+                p
+              </span>
+              <span id="layer" className="sol">
+                e
+              </span>
+              <span id="layer" className="sol">
+                r
+              </span>
+            </div>
+            <p className="mb-4 sol webok">Front end developer</p>
             <a
               href="mailto: huseynlimran@gmail.com"
               className="cnt text-center mb-4 sol"
               target="_blank"
               rel="noreferrer"
-             
             >
               Contact
             </a>
@@ -199,7 +192,6 @@ export default function Home() {
               data-scroll
               data-scroll-direction="vertical"
               data-scroll-speed="5"
-              
             />
             <Link
               to="https://github.com/Huseynlimran"
