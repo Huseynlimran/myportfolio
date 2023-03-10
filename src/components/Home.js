@@ -41,7 +41,7 @@ export default function Home() {
       }
     );
 
-    const boxe = document.querySelectorAll(".boxoso #layer");
+    const boxe = document.querySelectorAll(".home #layer");
     boxe.forEach((element) => {
       element.addEventListener("mouseover", () => {
         element.classList.add("active2");
@@ -83,20 +83,21 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="home mt-5 pt-5 mb-0" id="home" data-scroll-section>
+    <section className="home" id="home" data-scroll-section>
       <div
         className="container"
         data-scroll
         data-scroll-direction="vertical"
-        data-scroll-speed="5"
-      >
-        <div className="row pt-md-5 mt-5">
-          <div className="col-md-6 d-flex flex-column align-items-start justify-content-md-center" data-scroll
+        data-scroll-speed="5">
+        <div className="row d-flex">
+          <div
+            className="col-md-6 d-flex flex-column align-items-md-start align-items-center justify-content-md-center"
+            data-scroll
             data-scroll-direction="vertical"
             data-scroll-speed="6"
             data-scroll-delay="0.18"
-            >
-            <div className="d-flex display-1" >
+          >
+            <div className="d-flex display-1">
               <span id="layer" className="sol">
                 H
               </span>
@@ -177,7 +178,7 @@ export default function Home() {
             <p className="mb-4 sol webok">Front end developer</p>
             <a
               href="mailto: huseynlimran@gmail.com"
-              className="cnt text-center mb-4 sol"
+              className="cnt text-center sol"
               target="_blank"
               rel="noreferrer"
             >

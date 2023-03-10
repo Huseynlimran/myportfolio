@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import { useEffect, useRef } from "react";
-import gsap,{Power1} from "gsap";
+import gsap, { Power1 } from "gsap";
 
 function App() {
   const containerRef = useRef(null);
@@ -32,53 +32,55 @@ function App() {
       options={{
         inertia: 0.8,
         smooth: true,
-        getDirection: true,
-        mobile: {
-          breakpoint: 0,
+        smartphone: {
           smooth: true,
-          getDirection: true,
         },
-        tablet: {
-          breakpoint: 0,
-          smooth: true,
-          getDirection: true,
-        },
+        // getDirection: true,
+        // mobile: {
+        //   breakpoint: 0,
+        //   smooth: true,
+        //   getDirection: true,
+        // },
+        // tablet: {
+        //   breakpoint: 0,
+        //   smooth: true,
+        //   getDirection: true,
+        // },
       }}
     >
-       <div>
-      <div className="intro">
-        <div className="intro-text">
-          <h1 className="hide">
-            <span className="text fontt">
-              I<span className="text fontt">M</span>
-              <span className="text fontt">R</span>
-              <span className="text fontt">A</span>
-              <span className="text fontt">N</span>
-              <span className="text fontt space"> </span>
-              <span className="text fontt">H</span>
-              <span className="text fontt">U</span>
-              <span className="text fontt">S</span>
-              <span className="text fontt">E</span>
-              <span className="text fontt">Y</span>
-              <span className="text fontt">N</span>
-              <span className="text fontt">L</span>
-              <span className="text fontt">I</span>
-            </span>
-          </h1>
+      <div>
+        <div className="intro">
+          <div className="intro-text">
+            <h1 className="hide">
+              <span className="text fontt">
+                I<span className="text fontt">M</span>
+                <span className="text fontt">R</span>
+                <span className="text fontt">A</span>
+                <span className="text fontt">N</span>
+                <span className="text fontt space"> </span>
+                <span className="text fontt">H</span>
+                <span className="text fontt">U</span>
+                <span className="text fontt">S</span>
+                <span className="text fontt">E</span>
+                <span className="text fontt">Y</span>
+                <span className="text fontt">N</span>
+                <span className="text fontt">L</span>
+                <span className="text fontt">I</span>
+              </span>
+            </h1>
+          </div>
         </div>
-      </div>
 
-      <div className="slider"></div>
-    </div>
-        <Navigation />
-        <div className="app" data-scroll-container ref={containerRef}>
-          <Home />
-          <Skills />
-          <Project />
-          <About />
-          <Footer />
-        </div>
-      
+        <div className="slider"></div>
+      </div>
+      <Navigation />
+      <div className="app" data-scroll-container ref={containerRef}>
+        <Home />
+        <Skills />
+        <Project />
+        <About />
+        <Footer />
+      </div>
 
       {/* <BrowserRouter>
         <Navigation />
