@@ -48,12 +48,11 @@ export default function Home() {
         gsap.fromTo(
           ".active2",
           {
-            scaleY: 2,
+            scaleY: 2.6,
             scaleX: 0.6,
             ease: Elastic,
-            duration:1,
           },
-          { scaleX: 1, scaleY: 1,duration:1, }
+          { scaleX: 1, scaleY: 1 }
         );
         element.addEventListener("mouseup", () => {
           element.classList.add("active2");
@@ -87,7 +86,8 @@ export default function Home() {
     <section className="home mt-5 pt-5 mb-0" id="home" data-scroll-section>
       <div className="container">
         <div className="row pt-md-5 mt-5">
-          <div className="col-md-6 d-flex flex-column align-items-start justify-content-md-center">
+          <div className="col-md-6 d-flex flex-column align-items-start justify-content-md-center"
+          >
             <h1 className="display-1">
               <div
                 className="boxoso"
@@ -178,7 +178,6 @@ export default function Home() {
             </h1>
             <p
               className="mt-2 my-4 sol webok"
-              
             >
               Front end developer
             </p>
@@ -200,6 +199,7 @@ export default function Home() {
               data-scroll
               data-scroll-direction="vertical"
               data-scroll-speed="5"
+              
             />
             <Link
               to="https://github.com/Huseynlimran"

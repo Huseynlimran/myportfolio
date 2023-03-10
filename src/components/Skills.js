@@ -55,6 +55,7 @@ export default function Skills() {
             data-scroll-direction="vertical"
             data-scroll-speed="3"
             
+            
           >
             <h1 className="lefts">My Skills</h1>
             <p className="lefts">
@@ -66,6 +67,8 @@ export default function Skills() {
           <div className="col-md-6 skill_equal" data-scroll
             data-scroll-direction="vertical"
             data-scroll-speed="3"
+            data-scroll-sticky
+            
             data>
             <div className="skill">
               <span className="lefts">HTML</span>
