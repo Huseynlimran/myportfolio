@@ -30,7 +30,7 @@ function App() {
     <LocomotiveScrollProvider
       containerRef={containerRef}
       options={{
-        inertia: 0.8,
+        // inertia: 0.8,
         smooth: true,
         smartphone: {
           smooth: true,
