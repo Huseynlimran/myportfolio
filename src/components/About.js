@@ -3,20 +3,17 @@ import React from 'react'
 export default function About() {
   return (
     <section className="about my-4 pt-2" id="aboutme" data-scroll-section >
-        <div className="container-lg"  id="pinSection">
-            <div className="row text-center">
-                <div className="col-12">
-                    <h2   aria-label=""
-                    data-scroll
-                    data-scroll-direction="vertical"
-                    data-scroll-speed="3" >About Me</h2>
-                </div>
-            </div>
-            <div className="row justify-content-center" >
-                <div className="col-lg-6 col-md-8 col-11 sd"   aria-label=""
+        <div className="container-lg"      aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="7">
+            <div className="row text-center">
+                <div className="col-12">
+                    <h2 >About Me</h2>
+                </div>
+            </div>
+            <div className="row justify-content-center">
+                <div className="col-lg-6 col-md-8 col-11 sd">
                     <p className="top" >
                         <i className="fas fa-quote-left"></i> Hi, my name is Imran. I'm 25 years old. I'm in the IT field
                         since 2017.I

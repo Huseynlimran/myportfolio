@@ -52,9 +52,9 @@ export default function Contact() {
             <div className="contact-form">
               <form>
                 <div className="row d-flex input1">
-                  <div className="col-lg-6 mb-4">
+                  <div className="col-lg-6 mb-4" >
                     <div className="inputAni">
-                      <input
+                      <input 
                         type="text"
                         id="toName"
                         placeholder="Your Name"

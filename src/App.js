@@ -22,6 +22,7 @@ function App() {
       opacity: 1,
       stagger: 0.1,
     });
+    
 
     sg.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 });
     sg.to(".intro", { y: "-100%", duration: 1 }, "-=1");
@@ -39,13 +40,14 @@ function App() {
         touchMultiplier: 2,
         smoothMobile: 0,
         smartphone: {
-            smooth: !0,
-            breakpoint: 767
+          smooth: !0,
+          breakpoint: 767,
         },
         tablet: {
-            smooth: !1,
-            breakpoint: 1024
+          smooth: !1,
+          breakpoint: 1024,
         },
+        
         // getDirection: true,
         // mobile: {
         //   breakpoint: 0,
