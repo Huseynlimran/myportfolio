@@ -8,6 +8,7 @@ import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import { useEffect, useRef } from "react";
 import gsap, { Power1 } from "gsap";
+import Contact from "./components/Contact";
 
 function App() {
   const containerRef = useRef(null);
@@ -32,8 +33,18 @@ function App() {
       options={{
         // inertia: 0.8,
         smooth: true,
+        lerp: 0.03, // Linear Interpolation, 0 > 1 // Try 0.01
+        multiplier: 1.4, // Effect Multiplier
+        reloadOnContextChange: true,
+        touchMultiplier: 2,
+        smoothMobile: 0,
         smartphone: {
-          smooth: true,
+            smooth: !0,
+            breakpoint: 767
+        },
+        tablet: {
+            smooth: !1,
+            breakpoint: 1024
         },
         // getDirection: true,
         // mobile: {
@@ -74,11 +85,13 @@ function App() {
         <div className="slider"></div>
       </div>
       <Navigation />
+
       <div className="app" data-scroll-container ref={containerRef}>
         <Home />
         <Skills />
         <Project />
         <About />
+        <Contact />
         <Footer />
       </div>
 

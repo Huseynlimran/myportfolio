@@ -17,7 +17,7 @@ export default function Home() {
         opacity: 1,
         duration: 0.3,
         stagger: 0.1,
-      }
+      },"+=1"
     );
     gsap.fromTo(
       ".icons",
@@ -27,7 +27,7 @@ export default function Home() {
         opacity: 1,
         duration: 1,
         stagger: 0.2,
-      }
+      },"-=1"
     );
     gsap.fromTo(
       ".itemHome",
@@ -38,7 +38,23 @@ export default function Home() {
         opacity: 1,
         duration: 3,
         delay: 0.02,
-      }
+      },"-=1"
+    );
+    gsap.fromTo(
+      "#home2",
+      { opacity: 0},
+      {
+        opacity: 1,
+        duration: 2,
+      },"-=1"
+    );
+    gsap.fromTo(
+      ".myname",
+      { opacity: 0 },
+      {
+        opacity: 1,
+        duration: 1,
+      },"-=1"
     );
 
     const boxe = document.querySelectorAll(".home #layer");
@@ -83,7 +99,9 @@ export default function Home() {
   }, []);
 
   return (
+    
     <section className="home" id="home" data-scroll-section>
+     
       <div
         className="container"
         data-scroll
@@ -96,6 +114,7 @@ export default function Home() {
             data-scroll-direction="vertical"
             data-scroll-speed="6"
             data-scroll-delay="0.18"
+            data-scroll-repeat
           >
             <div className="d-flex display-1">
               <span id="layer" className="sol">
@@ -220,20 +239,21 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div id="direction">
+      <div id="home2">
         <h1
           className="myname"
           data-scroll
           data-scroll-direction="horizontal"
-          data-scroll-speed="1"
-          data-scroll-target="#direction"
-          data-scroll-delay=".02""
+          data-scroll-speed="20"
+          data-scroll-target="#home2"
         >
           HUSEYNLI IMRAN FRONT END DEVELOPER
         </h1>
-      </div> */}
+        
+      </div>
+   
 
-      {/* <div className="box"></div> */}
+      {/* /* <div className="box"></div> */}
     </section>
   );
 }
