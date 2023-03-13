@@ -8,12 +8,11 @@ export default function Footer() {
   return (
     <footer className="footer" data-scroll-section>
       <div className="container">
-        <div className="row mt-5"    aria-label=""
+        <div className="row mt-5 d-flex align-items-center justify-content-md-evenly justify-content-between"    aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3">
           <div className="col-md-2">
-            <Link className="logoMini">Imran</Link>
           </div>
           <div className=" col-md-4 col-7 mb-5">
             <h3 className="mb-4">CONTACT</h3>

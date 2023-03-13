@@ -1,12 +1,12 @@
 .footer {
+  display: flex;
   background-color: $brand;
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   position: relative;
   padding-left: 10px;
-  margin-bottom: 80px;
   padding-bottom: 300px;
-  border-radius: 35% 35% 0% 0;
+  border-radius: 25% 25% 0% 0;
   @media(max-width: $breakpoint768){
     padding-bottom: 350px;
   }
@@ -14,6 +14,9 @@
   h3 {
     color: black;
     font-family: $brandFont;
+    @media(max-width: $breakpoint768){
+      margin-top: 30px;
+    }
 
   }
 
@@ -25,6 +28,9 @@
     color: black;
     font-weight: bold;
     transition: all 0.4s;
+    @media(max-width: $breakpoint768){
+      font-size: 2em;
+    }
   }
   .socialIcon{
     color: black;

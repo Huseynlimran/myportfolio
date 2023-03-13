@@ -34,7 +34,7 @@ function App() {
       options={{
         // inertia: 0.8,
         smooth: true,
-        lerp: 0.03, // Linear Interpolation, 0 > 1 // Try 0.01
+        lerp: 0.06, // Linear Interpolation, 0 > 1 // Try 0.01
         multiplier: 1.4, // Effect Multiplier
         reloadOnContextChange: true,
         touchMultiplier: 2,
