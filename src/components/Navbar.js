@@ -10,7 +10,8 @@ const Navigation = () => {
       scale: 1,
       opacity: 1,
       duration: 2,
-      stagger:.3
+      stagger:.3,
+      delay:3,
     });
    
     //       // gsap.fromTo(

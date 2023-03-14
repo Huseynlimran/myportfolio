@@ -17,7 +17,8 @@ export default function Home() {
         opacity: 1,
         duration: 0.3,
         stagger: 0.1,
-      },"+=1"
+        delay:3.5
+      }
     );
     gsap.fromTo(
       ".icons",
@@ -46,7 +47,7 @@ export default function Home() {
       {
         opacity: 1,
         duration: 2,
-      },"-=1"
+      },"-=2"
     );
     gsap.fromTo(
       ".myname",
@@ -64,8 +65,8 @@ export default function Home() {
         gsap.fromTo(
           ".active2",
           {
-            scaleY: 1.5,
-            scaleX: 0.6,
+            scaleY: 2.2,
+            scaleX: 0.2,
             ease: Elastic,
           },
           { scaleX: 1, scaleY: 1 }

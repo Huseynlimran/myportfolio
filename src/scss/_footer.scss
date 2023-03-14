@@ -5,10 +5,11 @@
   height: 30vh;
   position: relative;
   padding-left: 10px;
-  padding-bottom: 300px;
+  padding-bottom: 350px;
   border-radius: 25% 25% 0% 0;
   @media(max-width: $breakpoint768){
-    padding-bottom: 350px;
+    padding-bottom: 390px;
+    
   }
   
   h3 {

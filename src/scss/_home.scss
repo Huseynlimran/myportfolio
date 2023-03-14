@@ -15,6 +15,8 @@
   }
   #layer{
     cursor:default;
+    transition: all .1s;
+
   }
   .icons{
     color: $brand;
@@ -38,8 +40,9 @@
     
   }
   #home2{
-    position: relative;
-    transform: skewX(15deg) rotate(6deg);
+    left: -20px;
+    position: absolute;
+    transform: skewX(15deg) rotate(3deg);
     z-index: -1;
     display: flex;
     align-items: center;
