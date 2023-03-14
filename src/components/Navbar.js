@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
+  
 
   useEffect(() => {
     gsap.fromTo(".linksNav",{x:100,opacity:0}, {
@@ -13,6 +14,8 @@ const Navigation = () => {
       stagger:.3,
       delay:3,
     });
+
+    
    
     //       // gsap.fromTo(
     //       //   ".webok",
@@ -75,6 +78,16 @@ const Navigation = () => {
       ? setToggleIcon("burger toggle")
       : setToggleIcon("burger");
   };
+
+  const closeNav = () =>{
+    active === "nav-links"
+    ? setActive("navlinks")
+    :setActive("nav-links");
+
+    toggleIcon === "burger"
+      ? setToggleIcon("burger toggle")
+      : setToggleIcon("burger");
+  }
   return (
     <nav className="navSticky">
       <div className="container animationnav">
@@ -87,27 +100,27 @@ const Navigation = () => {
           <Link to="/" className="logo"></Link>
 
           <li className="listLi">
-            <Link to="/home" className="linksNav">
+            <Link onClick={closeNav} to="/home" className="linksNav">
               Home
             </Link>
           </li>
           <li className="listLi">
-            <Link to="/myskills" className="linksNav">
+            <Link onClick={closeNav} to="/myskills" className="linksNav">
               My Skills
             </Link>
           </li>
           <li className="listLi">
-            <Link to="/project" className="linksNav">
+            <Link onClick={closeNav} to="/project" className="linksNav">
               Project
             </Link>
           </li>
           <li className="listLi">
-            <Link to="/about" className="linksNav">
+            <Link onClick={closeNav} to="/about" className="linksNav">
               Abou me
             </Link>
           </li>
           <li className="listLi">
-            <Link to="/" className="linksNav">
+            <Link onClick={closeNav} to="/" className="linksNav">
               Contact
             </Link>
           </li>
