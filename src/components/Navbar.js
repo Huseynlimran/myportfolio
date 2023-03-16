@@ -2,22 +2,21 @@ import gsap from "gsap";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-
 const Navigation = () => {
-  
-
   useEffect(() => {
-    gsap.fromTo(".linksNav",{x:100,opacity:0}, {
-      x:0,
-      scale: 1,
-      opacity: 1,
-      duration: 2,
-      stagger:.3,
-      delay:3,
-    });
+    gsap.fromTo(
+      ".linksNav",
+      { x: 100, opacity: 0 },
+      {
+        x: 0,
+        scale: 1,
+        opacity: 1,
+        duration: 2,
+        stagger: 0.3,
+        delay: 3,
+      }
+    );
 
-    
-   
     //       // gsap.fromTo(
     //       //   ".webok",
     //       //   {
@@ -37,6 +36,7 @@ const Navigation = () => {
     //       //   }
     //       // );
   }, []);
+
 
   // useEffect(() => {
   //   gsap.to(".animationnav", {
@@ -69,8 +69,6 @@ const Navigation = () => {
   const [toggleIcon, setToggleIcon] = useState("burger");
 
   const showNav = () => {
-
-
     active === "nav-links"
       ? setActive("navlinks nav-active")
       : setActive("nav-links");
@@ -82,37 +80,31 @@ const Navigation = () => {
       : setToggleIcon("burger");
   };
 
-
-  const closeNav = () =>{
-
-   
-
-    active === "nav-links"
-    ? setActive("navlinks")
-    :setActive("nav-links");
+  const closeNav = () => {
+    active === "nav-links" ? setActive("navlinks") : setActive("nav-links");
 
     toggleIcon === "burger"
       ? setToggleIcon("burger toggle")
       : setToggleIcon("burger");
-  }
+  };
   return (
     <nav className="navSticky">
       <div className="container animationnav">
-        <Link to="/" className="logo">
-         Imran
-
+        <Link
+          to="/"
+          className="logo"
+        >
+          Imran
         </Link>
 
         <ul className={active}>
-          <Link to="/" className="logo"></Link>
-
           <li className="listLi">
             <Link onClick={closeNav} to="/home" className="linksNav home">
               Home
             </Link>
           </li>
           <li className="listLi">
-            <Link onClick={closeNav} to="/#myskills" className="linksNav">
+            <Link onClick={closeNav} to="/myskills" className="linksNav">
               My Skills
             </Link>
           </li>
@@ -131,8 +123,6 @@ const Navigation = () => {
               Contact
             </Link>
           </li>
-         
-          
         </ul>
 
         <div></div>
