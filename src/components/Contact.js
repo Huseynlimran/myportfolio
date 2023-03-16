@@ -3,15 +3,15 @@ import React from "react";
 export default function Contact() {
 
   return (
-    <section className="contact py-5" id="contact"  data-scroll-section>
-      <div className="container py-4"   aria-label=""
+    <section className="contact" id="contact">
+      <div className="container"   aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="3">
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="section-title text-center">
-              <h2 className="fw- mb-5">Contact Me</h2>
+              <h2 className=" mb-5">Contact Me</h2>
             </div>
           </div>
         </div>

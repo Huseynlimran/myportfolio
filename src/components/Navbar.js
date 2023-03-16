@@ -2,6 +2,7 @@ import gsap from "gsap";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+
 const Navigation = () => {
   
 
@@ -68,6 +69,8 @@ const Navigation = () => {
   const [toggleIcon, setToggleIcon] = useState("burger");
 
   const showNav = () => {
+
+
     active === "nav-links"
       ? setActive("navlinks nav-active")
       : setActive("nav-links");
@@ -79,7 +82,11 @@ const Navigation = () => {
       : setToggleIcon("burger");
   };
 
+
   const closeNav = () =>{
+
+   
+
     active === "nav-links"
     ? setActive("navlinks")
     :setActive("nav-links");
@@ -100,12 +107,12 @@ const Navigation = () => {
           <Link to="/" className="logo"></Link>
 
           <li className="listLi">
-            <Link onClick={closeNav} to="/home" className="linksNav">
+            <Link onClick={closeNav} to="/home" className="linksNav home">
               Home
             </Link>
           </li>
           <li className="listLi">
-            <Link onClick={closeNav} to="/myskills" className="linksNav">
+            <Link onClick={closeNav} to="/#myskills" className="linksNav">
               My Skills
             </Link>
           </li>

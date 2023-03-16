@@ -101,7 +101,7 @@ export default function Home() {
 
   return (
     
-    <section className="home" id="home" data-scroll-section>
+    <section className="home" id="home">
      
       <div
         className="container"
@@ -110,7 +110,7 @@ export default function Home() {
         data-scroll-speed="5">
         <div className="row d-flex">
           <div
-            className="col-md-6 d-flex flex-column align-items-md-start align-items-center justify-content-md-center"
+            className="col-md-6 d-flex flex-column align-items-md-start  justify-content-md-center"
             data-scroll
             data-scroll-direction="vertical"
             data-scroll-speed="6"
