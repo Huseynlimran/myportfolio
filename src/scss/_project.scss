@@ -1,49 +1,49 @@
 .project {
   position: relative;
   scroll-margin-top: 60px;
-  .tittle {
-    color: $brand;
-    text-align: center;
-    padding-top: 25px;
-    font-size: 26px;
-    font-size: $big;
-    margin-bottom: 40px;
-    line-height: 100%;
-    font-size: 2.1em;
-    color: $font;
-    font-family: $brandFont;
-    color: $brand;
-    color: transparent;
-    line-height: 150%;
+  // .tittle {
+  //   color: $brand;
+  //   text-align: center;
+  //   padding-top: 25px;
+  //   font-size: 26px;
+  //   font-size: $big;
+  //   margin-bottom: 40px;
+  //   line-height: 100%;
+  //   font-size: 2.1em;
+  //   color: $font;
+  //   font-family: $brandFont;
+  //   color: $brand;
+  //   color: transparent;
+  //   line-height: 150%;
 
-    background-image: linear-gradient(
-      to left,
-      $brand,
-      $font,
-      #fdecf4,
-      black,
-      $brand
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    animation: animate 15s linear infinite alternate-reverse;
-    background-size: 200%;
-    -webkit-background-size: 200%;
-    @keyframes animate {
-      0% {
-        background-position: 0 100%;
-      }
-      50% {
-        background-position: 100% 0;
-      }
-      100% {
-        background-position: 0 100%;
-      }
-    }
-    @media (max-width: $breakpoint480) {
-      font-size: $big;
-    }
-  }
+  //   background-image: linear-gradient(
+  //     to left,
+  //     $brand,
+  //     $font,
+  //     #fdecf4,
+  //     black,
+  //     $brand
+  //   );
+  //   background-clip: text;
+  //   -webkit-background-clip: text;
+  //   animation: animate 15s linear infinite alternate-reverse;
+  //   background-size: 200%;
+  //   -webkit-background-size: 200%;
+  //   @keyframes animate {
+  //     0% {
+  //       background-position: 0 100%;
+  //     }
+  //     50% {
+  //       background-position: 100% 0;
+  //     }
+  //     100% {
+  //       background-position: 0 100%;
+  //     }
+  //   }
+  //   @media (max-width: $breakpoint480) {
+  //     font-size: $big;
+  //   }
+  // }
   .color4 {
     position: absolute;
     top: 0;
@@ -94,5 +94,6 @@
     transform: translateY(100%);
     transition: all 0.4s;
     z-index: 999;
+    font-family: $brandFont;
   }
 }

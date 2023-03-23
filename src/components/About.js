@@ -30,12 +30,12 @@ export default function About() {
                 </div>
             </div>
         </div>
-        {/* <img src="img/IMAGE.png"   aria-label=""
+        <img src="img/IMAGE.png"   aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     // data-scroll-sticky data-scroll-target="#pinSection"
                     data-scroll-speed="5"
-                     className="strs top" alt=""></img> */}
+                     className="strs top" alt=""></img>
 
 
     </section>
