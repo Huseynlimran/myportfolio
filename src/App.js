@@ -4,7 +4,7 @@ import About from "./components/About";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
-import "locomotive-scroll/dist/locomotive-scroll.css";
+// import "locomotive-scroll/dist/locomotive-scroll.css";
 import { useEffect, useRef } from "react";
 import gsap, { Power1 } from "gsap";
 import Contact from "./components/Contact";
