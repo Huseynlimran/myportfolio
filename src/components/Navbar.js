@@ -106,15 +106,14 @@ const Navigation = () => {
             </Link>
           </li>
           <li className="listLi">
-            <Link
-              to="/myskills"
+            <a
+            href="myskilss"
               onClick={closeNav}
               data-scroll-to
               className="linksNav"
-              data-target="myskills"
             >
               My Skills
-            </Link>
+            </a>
           </li>
           <li className="listLi">
             <Link
