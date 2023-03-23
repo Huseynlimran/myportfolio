@@ -47,7 +47,7 @@ export default function Skills() {
 
   return (
     <section className="MySkills" id="myskills">
-      <div className="container">
+      <div className="containerl">
         <div className="row">
           <div
             className="col-md-6  mb-md-0 mb-0"

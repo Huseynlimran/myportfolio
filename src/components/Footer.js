@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="containerl">
         <div className="row mt-md-5 d-flex align-items-center justify-content-md-evenly justify-content-between"    aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"

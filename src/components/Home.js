@@ -41,22 +41,22 @@ export default function Home() {
         delay: 0.02,
       },"-=1"
     );
-    gsap.fromTo(
-      "#home2",
-      { opacity: 0},
-      {
-        opacity: 1,
-        duration: 2,
-      },"-=2"
-    );
-    gsap.fromTo(
-      ".myname",
-      { opacity: 0 },
-      {
-        opacity: 1,
-        duration: 1,
-      },"-=1"
-    );
+    // gsap.fromTo(
+    //   "#home2",
+    //   { opacity: 0},
+    //   {
+    //     opacity: 1,
+    //     duration: 2,
+    //   },"-=2"
+    // );
+    // gsap.fromTo(
+    //   ".myname",
+    //   { opacity: 0 },
+    //   {
+    //     opacity: 1,
+    //     duration: 1,
+    //   },"-=1"
+    // );
 
     const boxe = document.querySelectorAll(".home #layer");
     boxe.forEach((element) => {
@@ -104,13 +104,13 @@ export default function Home() {
     <section className="home" id="home">
      
       <div
-        className="container"
+        className="containerl"
         data-scroll
         data-scroll-direction="vertical"
         data-scroll-speed="5">
         <div className="row d-flex">
           <div
-            className="col-md-6 d-flex flex-column align-items-md-start  justify-content-md-center"
+            className="col-md-6 d-flex flex-column align-items-start  justify-content-md-center"
             data-scroll
             data-scroll-direction="vertical"
             data-scroll-speed="6"
@@ -218,7 +218,7 @@ export default function Home() {
               to="https://github.com/Huseynlimran"
               target="_blank"
               rel="noreferrer"
-              className="sag me-md-0 me-2"
+              className="sag me-md-0 ms-2"
               data-scroll
               data-scroll-direction="vertical"
               data-scroll-speed="2"
@@ -227,7 +227,7 @@ export default function Home() {
             </Link>
             <Link
               to="https://www.linkedin.com/in/imran-huseynli-406347220/"
-              className="sag"
+              className="sag ms-2"
               target="_blank"
               rel="noreferrer"
               data-scroll
@@ -240,7 +240,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="home2">
+      {/* <div id="home2">
         <h1
           className="myname"
           data-scroll
@@ -251,7 +251,7 @@ export default function Home() {
           HUSEYNLI IMRAN FRONT END DEVELOPER
         </h1>
         
-      </div>
+      </div> */}
    
 
       {/* /* <div className="box"></div> */}

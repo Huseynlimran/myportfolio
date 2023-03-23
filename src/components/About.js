@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <section className="about" id="aboutme">
-        <div className="container-lg"      aria-label=""
+        <div className="containerl"      aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
                     data-scroll-speed="7">

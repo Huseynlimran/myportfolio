@@ -1,6 +1,6 @@
 import gsap from "gsap";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navigation = () => {
   useEffect(() => {
@@ -36,7 +36,6 @@ const Navigation = () => {
     //       //   }
     //       // );
   }, []);
-
 
   // useEffect(() => {
   //   gsap.to(".animationnav", {
@@ -89,37 +88,58 @@ const Navigation = () => {
   };
   return (
     <nav className="navSticky">
-      <div className="container animationnav">
-        <Link
-          to="/"
-          className="logo"
-        >
+      <div className="containerl navcontainer animationnav">
+        <Link to="/" className="logo">
           Imran
         </Link>
 
         <ul className={active}>
           <li className="listLi">
-            <Link onClick={closeNav} to="/home" className="linksNav home">
+            <Link
+              onClick={closeNav}
+              smooth
+              spy
+              to="home"
+              className="linksNav home"
+            >
               Home
             </Link>
           </li>
           <li className="listLi">
-            <Link onClick={closeNav} to="/myskills" className="linksNav">
+            <Link
+              onClick={closeNav}
+              smooth
+              spy
+              to="myskills"
+              className="linksNav"
+            >
               My Skills
             </Link>
           </li>
           <li className="listLi">
-            <Link onClick={closeNav} to="/project" className="linksNav">
+            <Link
+              onClick={closeNav}
+              smooth
+              spy
+              to="project"
+              className="linksNav"
+            >
               Project
             </Link>
           </li>
           <li className="listLi">
-            <Link onClick={closeNav} to="/about" className="linksNav">
+            <Link
+              onClick={closeNav}
+              smooth
+              spy
+              to="aboutme"
+              className="linksNav"
+            >
               Abou me
             </Link>
           </li>
           <li className="listLi">
-            <Link onClick={closeNav} to="/" className="linksNav">
+            <Link onClick={closeNav} to="/contact" className="linksNav">
               Contact
             </Link>
           </li>
