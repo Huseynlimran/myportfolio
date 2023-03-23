@@ -5,7 +5,6 @@ import React from "react";
 // gsap.registerPlugin(ScrollTrigger);
 
 export default function Skills() {
-
   // useEffect(() => {
   //   gsap.fromTo(
   //     ".MySkills",
@@ -49,27 +48,33 @@ export default function Skills() {
     <section className="MySkills" id="myskills">
       <div className="containerl">
         <div className="row">
-          <div
-            className="col-md-6  mb-md-0 mb-0"
-            data-scroll
-            data-scroll-direction="vertical"
-            data-scroll-speed="3"
-            
-            
-          >
-            <h1 className="lefts">My Skills</h1>
-            <p className="lefts">
+          <div className="col-md-6">
+            <h1
+              className="lefts"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="3"
+            >
+              My Skills
+            </h1>
+            <p
+              className="lefts"
+              data-scroll
+              data-scroll-direction="vertical"
+              data-scroll-speed="3"
+            >
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
               quos unde velit qui maiores! Ipsam, natus est veritatis corrupti
               iusto rem veniam, nihil sint fugit, quae earum vero
             </p>
           </div>
-          <div className="col-md-6 skill_equal" data-scroll
-          data-scroll-direction="vertical"
-            data-scroll-speed="6"
+          <div
+            className="col-md-6 skill_equal"
+            data-scroll
+            data-scroll-direction="vertical"
+            data-scroll-speed="3"
             data-scroll-delay="0.18"
-            
-            >
+          >
             <div className="skill">
               <span className="lefts">HTML</span>
               <div className="mt-2 lefts  footerskills">
@@ -104,7 +109,6 @@ export default function Skills() {
         </div>
       </div>
 
-     
       {/* <img src="img/item2.png" className="item2" alt="" 
       data-scroll
       data-scroll-direction="vertical"
