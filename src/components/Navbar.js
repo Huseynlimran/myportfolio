@@ -107,11 +107,11 @@ const Navigation = () => {
           </li>
           <li className="listLi">
             <Link
+              to="/myskills"
               onClick={closeNav}
-              smooth
-              spy
-              to="myskills"
+              data-scroll-to
               className="linksNav"
+              data-target="myskills"
             >
               My Skills
             </Link>
