@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className="about" id="aboutme">
+    <section className="about" id="aboutme" data-scroll-section>
         <div className="containerl"      aria-label=""
                     data-scroll
                     data-scroll-direction="vertical"
@@ -13,7 +13,7 @@ export default function About() {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-lg-6 col-md-8 col-11 sd">
+                <div className="col-lg-6 col-md-8 col-11 sd" >
                     <p className="top" >
                         <i className="fas fa-quote-left"></i> Hi, my name is Imran. I'm 25 years old. I'm in the IT field
                         since 2017.I

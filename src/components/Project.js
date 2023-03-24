@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 export default function Project() {
   return (
-    <section className="project" id="project" aria-label=""
-    data-scroll
+    <section className="project" id="project" aria-label="" data-scroll-section
+    >
+      <h1 className="tittle" data-scroll
     data-scroll-direction="vertical"
-    data-scroll-speed="3">
-      <h1 className="tittle">My Project</h1>
+    data-scroll-speed="3">My Project</h1>
 
       <div className="container-fluid  m-0">
         <div

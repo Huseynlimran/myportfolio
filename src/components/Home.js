@@ -101,7 +101,7 @@ export default function Home() {
 
   return (
     
-    <section className="home" id="home">
+    <section className="home" id="home" data-scroll-section>
      
       <div
         className="containerl"

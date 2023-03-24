@@ -45,7 +45,7 @@ export default function Skills() {
   // }, []);
 
   return (
-    <section className="MySkills" id="myskills">
+    <section className="MySkills" id="myskills" data-scroll-section>
       <div className="containerl">
         <div className="row">
           <div className="col-md-6">
@@ -58,7 +58,7 @@ export default function Skills() {
               My Skills
             </h1>
             <p
-              className="lefts"
+              
               data-scroll
               data-scroll-direction="vertical"
               data-scroll-speed="3"

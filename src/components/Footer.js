@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" data-scroll-section>
       <div className="containerl">
         <div
           className="row mt-md-5 d-flex align-items-center justify-content-between"

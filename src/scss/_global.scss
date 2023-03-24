@@ -28,3 +28,12 @@ html,body{
   .titleskill{
     height: 40vh;
   }
+
+  .customP{
+    opacity: 0;
+    transition: opacity 6s;
+  }
+  
+  .activeP{
+    opacity: 1;
+  }
