@@ -32,8 +32,8 @@ function App() {
       containerRef={containerRef}
       options={{
         // inertia: 0.8,
-        smooth: true,
-        lerp: 0.06, // Linear Interpolation, 0 > 1 // Try 0.01
+        smooth: 1,
+        lerp: 0.1, // Linear Interpolation, 0 > 1 // Try 0.01
         multiplier: 0.5, // Effect Multiplier
         reloadOnContextChange: true,
         touchMultiplier: 2,
