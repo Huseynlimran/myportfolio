@@ -33,11 +33,7 @@ nav {
     font-weight: bold;
     transition: all 0.4s;
     margin-right: 60px;
-    @media(max-width: $breakpoint480){
-      svg{
-        width: 10px;
-      }
-    }
+   
   }
 
   ul {
