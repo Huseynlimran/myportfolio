@@ -1,8 +1,10 @@
 import gsap from "gsap";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-scroll";
+import { useLocomotiveScroll } from "react-locomotive-scroll";
 
 const Navigation = () => {
+
+  const { scroll } = useLocomotiveScroll();
   useEffect(() => {
     gsap.fromTo(
       ".linksNav",
@@ -102,7 +104,13 @@ const Navigation = () => {
       : setToggleIcon("burger");
   };
 
-  const closeNav = () => {
+  const closeNav = (event,sectionId) => {
+
+    event.preventDefault();
+    const offset = document.querySelector('nav').offsetHeight -250; // adjust offset based on your header height
+    scroll.scrollTo(sectionId, { offset });
+    console.log(offset)
+
     active === "nav-links" ? setActive("navlinks") : setActive("nav-links");
 
     toggleIcon === "burger"
@@ -112,7 +120,7 @@ const Navigation = () => {
   return (
     <nav className="navSticky">
       <div className="containerl navcontainer animationnav">
-        <Link to="/" className="logo">
+        <a href="#home"  onClick={(e) => closeNav(e, '#home')} className="logo">
           <svg
             width="47"
             height="43"
@@ -120,65 +128,44 @@ const Navigation = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path className="First"
+            <path
+              className="First"
               d="M6.556 39.816C6.556 41.48 5.516 42.312 3.436 42.312C1.39067 42.312 0.368 41.48 0.368 39.816V2.948C0.368 1.284 1.39067 0.451999 3.436 0.451999C5.516 0.451999 6.556 1.284 6.556 2.948V39.816Z"
               fill="#CFF306"
             />
-            <path className="Second"
+            <path
+              className="Second"
               d="M40.156 2.948C40.156 1.284 41.1787 0.451999 43.224 0.451999C45.304 0.451999 46.344 1.284 46.344 2.948V39.816C46.344 41.48 45.304 42.312 43.224 42.312C41.1787 42.312 40.156 41.48 40.156 39.816V2.948ZM24.348 39.816C24.348 41.48 23.308 42.312 21.228 42.312C19.1827 42.312 18.16 41.48 18.16 39.816V2.948C18.16 1.284 19.1827 0.451999 21.228 0.451999C23.308 0.451999 24.348 1.284 24.348 2.948V39.816ZM36.516 20.524C36.516 21.7373 36.1 22.76 35.268 23.592C34.436 24.424 33.4133 24.84 32.2 24.84C31.0213 24.84 30.016 24.424 29.184 23.592C28.352 22.76 27.936 21.7373 27.936 20.524C27.936 19.3107 28.352 18.288 29.184 17.456C30.016 16.624 31.0213 16.208 32.2 16.208C33.4133 16.208 34.436 16.624 35.268 17.456C36.1 18.288 36.516 19.3107 36.516 20.524Z"
               fill="#CFF306"
             />
           </svg>
-        </Link>
+        </a>
 
         <ul className={active}>
           <li className="listLi">
-            <Link
-              onClick={closeNav}
-              smooth
-              spy
-              to="home"
-              className="linksNav home"
-            >
+            <a href="#home" onClick={(e) => closeNav(e, '#home')} className="linksNav home">
               Home
-            </Link>
+            </a>
           </li>
           <li className="listLi">
-            <a
-              href="myskilss"
-              onClick={closeNav}
-              data-scroll-to
-              className="linksNav"
-            >
+            <a href="#myskills" onClick={(e) => closeNav(e, '#myskills')} className="linksNav">
               My Skills
             </a>
           </li>
           <li className="listLi">
-            <Link
-              onClick={closeNav}
-              smooth
-              spy
-              to="project"
-              className="linksNav"
-            >
+            <a href="#project" onClick={(e) => closeNav(e, '#project')} className="linksNav">
               Project
-            </Link>
+            </a>
           </li>
           <li className="listLi">
-            <Link
-              onClick={closeNav}
-              smooth
-              spy
-              to="aboutme"
-              className="linksNav"
-            >
+            <a href="#aboutme" onClick={(e) => closeNav(e, '#aboutme')} className="linksNav">
               Abou me
-            </Link>
+            </a>
           </li>
           <li className="listLi">
-            <Link onClick={closeNav} to="/contact" className="linksNav">
+            <a onClick={(e) => closeNav(e, '#contact')} href="#contact" className="linksNav">
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
 
