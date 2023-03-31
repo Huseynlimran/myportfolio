@@ -1,6 +1,7 @@
 import gsap from "gsap";
 import React, { useEffect, useState } from "react";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
 
@@ -107,7 +108,7 @@ const Navigation = () => {
   const closeNav = (event,sectionId) => {
 
     event.preventDefault();
-    const offset = document.querySelector('nav').offsetHeight -250; // adjust offset based on your header height
+    const offset = document.querySelector('nav').offsetHeight -230; // adjust offset based on your header height
     scroll.scrollTo(sectionId, { offset });
     console.log(offset)
 
@@ -120,7 +121,7 @@ const Navigation = () => {
   return (
     <nav className="navSticky">
       <div className="containerl navcontainer animationnav">
-        <a href="#home"  onClick={(e) => closeNav(e, '#home')} className="logo">
+        <Link className="logo">
           <svg
             width="47"
             height="43"
@@ -139,7 +140,7 @@ const Navigation = () => {
               fill="#CFF306"
             />
           </svg>
-        </a>
+        </Link>
 
         <ul className={active}>
           <li className="listLi">

@@ -25,7 +25,7 @@ export default function Project() {
           <div className="col-md-3 col-6 left mt-md-0 px-0">
             <div className="muncim">
               <img src="img/muncim.ro.png" className="img-fluid " alt=""></img>
-              <Link to="/muncim" className="muncimLink" rel="noreferrer">
+              <Link to="https://huseynlimran.github.io/Muncin/"target="_blank" className="muncimLink" rel="noreferrer">
                 Visit my project
               </Link>
             </div>
