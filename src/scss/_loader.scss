@@ -35,12 +35,15 @@
 
   .hide .fontt {
     /* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); */
-    transform: translateY(100%);
+    transform: translateY(120%);
     color: $brand;
     font-size: 2rem;
     z-index: 9999999;
     font-family: $brandFont;
     margin: 0 2px;
+    @media(max-width: $breakpoint480){
+        font-size: 1.3rem;
+    }
   }
 
   .hide {

@@ -195,7 +195,7 @@ export default function Home() {
                 r
               </span>
             </div>
-            <p className="mb-4 sol webok">Front end developer</p>
+            <p className="mb-4 mt-2 sol webok">Front end developer</p>
             <a
               href="mailto: huseynlimran@gmail.com"
               className="cnt text-center sol"
