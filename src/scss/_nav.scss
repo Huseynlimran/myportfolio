@@ -33,7 +33,6 @@ nav {
     font-weight: bold;
     transition: all 0.4s;
     margin-right: 60px;
-   
   }
 
   ul {
@@ -129,6 +128,30 @@ nav {
 .toggle .line3 {
   width: 30px;
   transform: rotate(315deg) translateY(-14px);
+}
+
+.burger {
+  transition: all 0.4s;
+  &:hover {
+    .line1 {
+      transform: rotate(-10deg);
+    }
+    .line3 {
+      transform: rotate(10deg);
+    }
+   
+  }
+}
+
+.toggle {
+  &:hover{
+    .line1{
+      transform:rotate(45deg) translateY(14px);
+    }
+    .line3{
+      transform: rotate(315deg) translateY(-14px);
+    }
+  }
 }
 
 @media (max-width: 850px) {
